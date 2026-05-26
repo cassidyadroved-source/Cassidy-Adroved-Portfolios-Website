@@ -225,35 +225,35 @@ const projects = {
     research: [
       {
         text: "The research explored how users interact with ordering kiosks in fast-paced café environments where speed and ease of use are essential. Competitive analysis showed that many coffee brands rely more heavily on mobile ordering than in-store kiosks, creating an opportunity to design a more efficient physical ordering experience.",
-        img: "../images/crave-case_14.png",
+        img: "../images/Crave-case_14.png",
         alt: "Crave kiosk research and competitive analysis"
       }
     ],
     personas: [
       {
         text: "The kiosk was designed for busy café customers who want to place orders quickly before work or during short breaks. These users already rely on digital tools in daily life and expect ordering technology to reduce friction rather than create it. They also want to reorder familiar items without losing the option to customize.",
-        img: "../images/crave-case_12.png",
+        img: "../images/Crave-case_12.png",
         alt: "Crave kiosk persona screens"
       }
     ],
     userflows: [
       {
         text: "The user flow includes three primary paths: new customer ordering, returning customer ordering, and guest checkout. New users can create a profile with phone verification, while returning users can access saved orders for faster reordering. From there, users browse categories, customize items, review their cart, enter a table tent number, choose payment options, and confirm their order.",
-        img: "../images/crave-case_18.png",
+        img: "../images/Crave-case_18.png",
         alt: "Crave kiosk user flow screens"
       }
     ],
     wireframes: [
       {
         text: "The wireframes focused on menu hierarchy, interaction order, and category navigation to help customers make quick decisions while ordering. The layouts emphasized large touch targets, strong visual hierarchy, and simple movement between steps.",
-        img: "../images/crave-case_16.png",
+        img: "../images/Crave-case_16.png",
         alt: "Crave kiosk wireframes"
       }
     ],
     designsolution: [
       {
         text: "The design solution introduced multiple entry points for new users, returning users, and guests, along with SMS verification for profile access. The ordering system was structured around clear category browsing, saved-order recall, and customization panels that help users adjust food and drink selections without confusion.",
-        img: "../images/crave-case_26.png",
+        img: "../images/Crave-case_26.png",
         alt: "Crave kiosk design solution screens",
   
       }
@@ -261,42 +261,42 @@ const projects = {
     feature: [
       {
         text: "The kiosk also includes cart editing, table tent number entry for order-to-table service, checkout with tipping options, payment confirmation, and receipt delivery to the user's phone.",
-        img: "../images/crave-case_24.png",
+        img: "../images/Crave-case_24.png",
         alt: "Crave kiosk cart and checkout features"
       }
     ],
     audience: [
       {
         text: "The brand targets customers looking for a quick and reliable café experience while still feeling welcomed by a neighborhood coffee shop atmosphere. Many users visit during busy morning routines and benefit from a system that feels familiar, simple to navigate, and visually calm.",
-        img: "../images/crave-case_2.png",
+        img: "../images/Crave-case_2.png",
         alt: "Crave brand audience and interface application"
       }
     ],
     color_scheme: [
       {
         text: "The color palette was designed to reflect warmth and comfort commonly associated with café environments. Neutral backgrounds support readability, while warm accent tones highlight interaction points and important actions. Soft browns and warm beige tones reinforce the coffee theme while maintaining contrast across kiosk screens.",
-        img: "../images/crave-case_4.png",
+        img: "../images/Crave-case_4.png",
         alt: "Crave kiosk color palette"
       }
     ],
     logo: [
       {
         text: "The Crave Coffee Co logo combines a clean wordmark with a simple circular icon inspired by coffee textures and café culture. The mark was designed to remain recognizable at multiple sizes and across both physical signage and digital interface applications.",
-        img: "../images/crave-case_6.png",
+        img: "../images/Crave-case_6.png",
         alt: "Crave Coffee Co logo design"
       }
     ],
     typography: [
       {
         text: "Typography was selected to balance personality with readability. Como Bold is used for headings to create strong visual anchors, while Urbane Rounded supports subheadings and body text to maintain clarity across interface screens. This pairing creates a friendly tone while staying legible in a fast-paced ordering environment.",
-        img: "../images/crave-case_10.png",
+        img: "../images/Crave-case_10.png",
         alt: "Crave typography system"
       }
     ],
     supporting_elements: [
       {
         text: "Supporting graphics include a repeating coffee bean pattern and a simple icon set that reinforce the brand personality without overwhelming the interface. These elements create consistency across screens while adding warmth to an otherwise minimal system.",
-        img: "../images/crave-case_8.png",
+        img: "../images/Crave-case_8.png",
         alt: "Crave brand supporting elements"
       }
     ]
@@ -777,42 +777,42 @@ const projects = {
     research: [
       {
         text: "Research focused on farm-to-table businesses, agricultural branding systems, and local food experiences that emphasize authenticity and freshness. Competitive analysis showed that consumers value brands that feel handcrafted, trustworthy, and connected to natural ingredients.",
-        img: "../images/davena-case-142.png",
+        img: "../images/Davena-case-142.png",
         alt: "Davena Farms branding research"
       }
     ],
     audience: [
       {
         text: "The brand targets customers interested in fresh produce, local agriculture, and handcrafted food experiences. These users value authenticity, sustainability, and approachable branding that reflects real farm-to-table values.",
-        img: "../images/davena6.jpeg",
+        img: "../images/Davena6.jpeg",
         alt: "Davena Farms target audience"
       }
     ],
     color_scheme: [
       {
         text: "The color palette uses earthy neutrals, warm greens, and natural tones inspired by agriculture and fresh ingredients. These colors reinforce calmness, authenticity, and organic quality throughout the brand system.",
-        img: "../images/davena-case_4.png",
+        img: "../images/Davena-case_4.png",
         alt: "Davena Farms color palette"
       }
     ],
     logo: [
       {
         text: "The Davena Farms logo combines rustic typography with simple handcrafted styling to create a visual identity that feels approachable, local, and authentic across packaging and digital applications.",
-        img: "../images/davena-case_6.png",
+        img: "../images/Davena-case_6.png",
         alt: "Davena Farms logo system"
       }
     ],
     typography: [
       {
         text: "Typography selections focus on rustic serif styles paired with clean supporting text to reinforce handcrafted quality while maintaining readability across labels and packaging systems.",
-        img: "../images/davena-case_10.png",
+        img: "../images/Davena-case_10.png",
         alt: "Davena Farms typography"
       }
     ],
     supporting_elements: [
       {
         text: "Supporting brand elements include packaging labels, organic dividers, texture overlays, and simple illustrations inspired by agriculture and handcrafted food experiences.",
-        img: "../images/davena-case_8.png",
+        img: "../images/Davena-case_8.png",
         alt: "Davena Farms supporting elements"
       }
     ]
@@ -1199,35 +1199,28 @@ const projects = {
     audience: [
       {
         text: "The target audience includes environmentally conscious coffee drinkers who value sustainability, reusable products, handcrafted presentation, and welcoming community spaces.",
-        img: "../images/sunshine-case_12.png",
+        img: "../images/Sunshine-case_12.png",
         alt: "Sunshine audience"
       }
     ],
     color_scheme: [
       {
         text: "The palette combines warm yellows, earthy neutrals, soft browns, and muted greens inspired by sunlight, natural materials, and organic café environments.",
-        img: "../images/sunshine-case_4.png",
-        alt: "Sunshine color palette"
-      }
-    ],
-    logo: [
-      {
-        text: "The Sunshine logo uses rounded typography and soft organic forms to create a welcoming identity that reinforces warmth, positivity, and sustainability.",
-        img: "../images/sunshine-case_6.png",
+        img: "../images/Sunshine-case_6.png",
         alt: "Sunshine logo"
       }
     ],
     typography: [
       {
         text: "Typography selections focus on approachable rounded styles paired with clean supporting text to reinforce friendliness and readability across packaging and signage systems.",
-        img: "../images/sunshine-case_10.png",
+        img: "../images/Sunshine-case_10.png",
         alt: "Sunshine typography"
       }
     ],
     supporting_elements: [
       {
         text: "Supporting visuals include reusable mason jar graphics, hand-drawn illustrations, textured backgrounds, and natural dividers inspired by sustainable café culture.",
-        img: "../images/sunshine-case_8.png",
+        img: "../images/Sunshine-case_8.png",
         alt: "Sunshine supporting elements"
       }
     ]
@@ -1284,42 +1277,42 @@ const projects = {
     research: [
       {
         text: "Research explored creative conference branding systems and design-focused event experiences. Strong typography and structured layouts consistently reinforced professionalism while still supporting creative energy.",
-        img: "../images/aigaa1-case_2.png",
+        img: "../images/AIGA1-case_2.png",
         alt: "AIGA DEC branding research"
       }
     ],
     audience: [
       {
         text: "The audience includes designers, students, and creative professionals interested in networking, collaboration, and attending visually engaging design events.",
-        img: "../images/aigaa1-case_12.png",
+        img: "../images/AIGA1-case_12.png",
         alt: "AIGA DEC audience"
       }
     ],
     color_scheme: [
       {
         text: "The palette combines bold contrast with modern accent colors to reinforce visual energy while maintaining readability and professional structure.",
-        img: "../images/aigaa1-case_4.png",
+        img: "../images/AIGA1-case_4.png",
         alt: "AIGA DEC color palette"
       }
     ],
     logo: [
       {
         text: "The logo system uses clean typography and structured geometric alignment to create a recognizable event identity adaptable across print and digital applications.",
-        img: "../images/aigaa1-case_6.png",
+        img: "../images/AIGA1-case_6.png",
         alt: "AIGA DEC logo"
       }
     ],
     typography: [
       {
         text: "Typography selections focus on bold hierarchy and modern sans-serif styles that reinforce readability while supporting a visually engaging event atmosphere.",
-        img: "../images/aigaa1-case_10.png",
+        img: "../images/AIGA1-case_10.png",
         alt: "AIGA DEC typography"
       }
     ],
     supporting_elements: [
       {
         text: "Supporting elements include structured grid systems, abstract graphics, and layered visual compositions that reinforce the creative identity of the event.",
-        img: "../images/aigaa1-case_8.png",
+        img: "../images/AIGA1-case_8.png",
         alt: "AIGA DEC supporting elements"
       }
     ],
@@ -1609,42 +1602,42 @@ Linked: {
   research: [
     {
       text: "Research explored hospitality and resort applications focused on simplifying guest experiences. Competitive analysis showed that users value fast room access, simplified service booking, and calm interfaces that reduce stress during travel.",
-      img: "../images/linked-case_14.png",
+      img: "../images/Linked-case_14.png",
       alt: "Linked hospitality research"
     }
   ],
   personas: [
     {
       text: "The primary audience includes travelers looking for relaxing resort experiences supported by clear and efficient digital tools. These users expect fast access to reservations, room information, and spa services without navigating confusing systems.",
-      img: "../images/linked-case_12.png",
+      img: "../images/Linked-case_12.png",
       alt: "Linked user persona"
     }
   ],
   userflows: [
     {
       text: "The user flow focuses on account creation, room check-in, browsing spa services, and accessing reservation information while keeping movement between screens simple and intuitive.",
-      img: "../images/linked-case_18.png",
+      img: "../images/Linked-case_18.png",
       alt: "Linked user flow"
     }
   ],
   wireframes: [
     {
       text: "Wireframes focused on reservation management, spa browsing systems, and streamlined check-in flows designed to reduce friction during the guest experience.",
-      img: "../images/linked-case_16.png",
+      img: "../images/Linked-case_16.png",
       alt: "Linked wireframes"
     }
   ],
   designsolution: [
     {
       text: "Features such as check-in confirmation popups, room-number entry systems, and highlighted navigation tabs reinforce clarity while minimizing mistakes during booking and check-in processes.",
-      img: "../images/linked-case_22.png",
+      img: "../images/Linked-case_22.png",
       alt: "Linked hospitality interactions"
     }
   ],
   feature: [
     {
       text: "Additional features include highlighted navigation states, room-number management, spa category organization, and simplified guest account tools that improve usability throughout the experience.",
-      img: "../images/linked-case_24.png",
+      img: "../images/Linked-case_24.png",
       alt: "Linked booking and service features"
     }
   ]
