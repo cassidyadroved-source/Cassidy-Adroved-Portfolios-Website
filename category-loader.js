@@ -27,7 +27,9 @@ if (!category) {
       : `project.html?project=${encodeURIComponent(projectName)}&category=${encodeURIComponent(categoryKey)}`;
 
     const buttonText = isCaseStudy ? "View Case Study →" : "View Project →";
-
+    const categoryLabel = category.title.replace(" Design", "").replace("& Layout", "");
+    const projectTypeLabel = isCaseStudy ? "Case Study" : "Project";
+    const markerText = `${categoryLabel} | ${projectTypeLabel}`;
     const textBlock = `
       <div class="cat-page-small mask-reveal">
         <div>
@@ -44,7 +46,7 @@ if (!category) {
     `;
 
     const imageBlock = `
-    <div class="cat-page-large mask-reveal ${isCaseStudy ? "case-study-dot" : ""}">
+    <div class="cat-page-large mask-reveal project-marker" data-marker="${markerText}">
       <a href="${pageUrl}">
         <img src="${project.main_img.src}" alt="${project.main_img.alt || project.title}">
       </a>
