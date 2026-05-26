@@ -517,83 +517,77 @@ const projects = {
     research: [
       {
         text: "Research focused on wellness applications that combine fitness and mindfulness tools. Competitive analysis revealed that users value simple navigation, calming visuals, achievement systems, and personalized routines that help maintain long-term consistency.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_14.png",
         alt: "Balanced research and competitor analysis"
       }
     ],
     personas: [
       {
         text: "The target audience includes users looking to improve both physical and mental wellness through structured daily routines. Many users want guidance and motivation while avoiding overly intense or stressful fitness experiences.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_12.png",
         alt: "Balanced persona screens"
       }
     ],
     userflows: [
       {
         text: "The user flow focuses on guiding users from onboarding into meditation, workouts, yoga categories, and achievement systems while keeping navigation simple and approachable.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_18.png",
         alt: "Balanced user flow"
       }
     ],
     wireframes: [
       {
         text: "Wireframes focused on dashboard hierarchy, content organization, and quick access to workouts, meditations, yoga categories, and recent activity.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_16.png",
         alt: "Balanced wireframes"
       }
     ],
     designsolution: [
       {
         text: "The design solution combines calming visual design with structured navigation systems that help users quickly access workouts, meditations, and progress tracking tools. Dashboard layouts prioritize clarity and ease of use while reinforcing wellness-focused interactions.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_20.png",
         alt: "Balanced design solutions",
-        text2: "Achievement systems, categorized wellness content, and progress indicators were integrated to encourage long-term motivation while maintaining a calm and supportive experience.",
-        img2: "../images/balanced6.jpeg",
-        alt2: "Balanced dashboard and achievement systems"
       }
     ],
     feature: [
       {
         text: "Features include customizable workouts, categorized yoga routines, meditation libraries, achievement tracking, recent activity sections, and dashboard shortcuts for quickly resuming wellness routines.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_20.png",
         alt: "Balanced features",
-        text2: "Additional tools include favorite workout systems, new pose recommendations, daily meditation prompts, and progress tracking systems designed to reinforce routine-building over time.",
-        img2: "../images/balanced6.jpeg",
-        alt2: "Balanced wellness features"
       }
     ],
     audience: [
       {
         text: "Balanced targets users interested in mindfulness, wellness, fitness, and sustainable self-improvement. The platform especially appeals to users looking for calm, supportive digital environments that encourage healthy routines without pressure.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_24.png",
         alt: "Balanced audience"
       }
     ],
     color_scheme: [
       {
         text: "The color palette uses calming greens, soft neutrals, and muted tones to reinforce relaxation and balance throughout the interface. Accent colors help guide interaction without creating visual stress.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_4.png",
         alt: "Balanced color palette"
       }
     ],
     logo: [
       {
         text: "The Balanced logo uses soft typography and rounded forms to reinforce themes of calmness, mindfulness, and wellness while remaining adaptable across digital applications.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_6.png",
         alt: "Balanced logo system"
       }
     ],
     typography: [
       {
         text: "Typography selections prioritize readability and calm visual rhythm. Rounded sans-serif styles help reinforce approachability while maintaining clarity across dashboards and wellness content.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_10.png",
         alt: "Balanced typography"
       }
     ],
     supporting_elements: [
       {
         text: "Supporting elements include wellness-focused iconography, calming gradients, soft dividers, and achievement graphics that reinforce the platform’s wellness identity across all screens.",
-        img: "../images/balanced6.jpeg",
+        img: "../images/Balanced-case_8.png",
         alt: "Balanced supporting brand elements"
       }
     ]
@@ -685,9 +679,9 @@ const projects = {
     ],
     feature: [
       {
-        text2: "Additional functionality includes adjustable date ranges, reusable metric widgets, user management navigation, and quick-access analytics summaries.",
-        img2: "../images/dashboard-case-15.png",
-        alt2: "Dashboard analytics and interaction tools"
+        text: "Additional functionality includes adjustable date ranges, reusable metric widgets, user management navigation, and quick-access analytics summaries.",
+        img: "../images/dashboard-case-15.png",
+        alt: "Dashboard analytics and interaction tools"
       }
     ],
     research_front: [
@@ -784,7 +778,7 @@ const projects = {
     audience: [
       {
         text: "The brand targets customers interested in fresh produce, local agriculture, and handcrafted food experiences. These users value authenticity, sustainability, and approachable branding that reflects real farm-to-table values.",
-        img: "../images/Davena6.jpeg",
+        img: "../images/davena6.jpeg",
         alt: "Davena Farms target audience"
       }
     ],
@@ -1206,6 +1200,13 @@ const projects = {
     color_scheme: [
       {
         text: "The palette combines warm yellows, earthy neutrals, soft browns, and muted greens inspired by sunlight, natural materials, and organic café environments.",
+        img: "../images/Sunshine-case_4.png",
+        alt: "Sunshine color palette"
+      }
+    ],
+    logo: [
+      {
+        text: "The Sunshine logo combines rounded typography with soft organic shapes inspired by warmth, positivity, and community-focused café culture. The visual identity was designed to feel welcoming and approachable while reinforcing the brand’s focus on sustainability, reusable packaging, and handcrafted experiences. Its simple structure allows the logo to remain flexible across packaging, signage, social media, and digital applications while maintaining strong brand recognition.",
         img: "../images/Sunshine-case_6.png",
         alt: "Sunshine logo"
       }
