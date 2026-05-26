@@ -1192,7 +1192,7 @@ const projects = {
     research: [
       {
         text: "Research explored sustainable café branding, eco-conscious packaging systems, and modern coffee shop experiences focused on community and environmental responsibility. Users responded positively to brands that felt approachable, warm, and authentic rather than overly corporate.",
-        img: "../images/sunshine-case_2.png",
+        img: "../images/Sunshine-case_2.png",
         alt: "Sunshine café branding research"
       }
     ],
