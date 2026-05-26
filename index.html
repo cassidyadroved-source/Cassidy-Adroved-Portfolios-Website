@@ -8,307 +8,264 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="home">
   <a class="skip-link" href="#main">Skip to main content</a>
-  <div class="bar">
-    <p> UX / Product Designer</p>
 
-  </div>
 
   <header class="site-header" role="banner">
     <nav class="nav" aria-label="Primary navigation">
       <a class="logo" href="#top" aria-label="Go to homepage">
-        <img src="https://cassidyadroved.design/wp-content/uploads/2026/02/CAssidyadroved-logo.png" alt="Cassidy Adroved's Logo">
+        <img src="images/cassidy-adroved-LIGHT.png" alt="Cassidy Adroved's Logo Light Mode" class="logo-light-mode">
+        <img src="images/cassidy-adroved-dark.png" alt="Cassidy Adroved's Logo Dark Mode"  class="logo-dark-mode">
       </a>
 
-      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navLinks">
-        <span class="sr-only">Toggle menu</span>
-        <span aria-hidden="true">☰</span>
-      </button>
+      <button class="nav-toggle" aria-label="Toggle menu">
 
-      <div class="nav__links" id="navLinks">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        
+        </svg>
+        
+        </button>
+
+      <div class="nav-links" id="navLinks">
+
 
         <a href="#top" aria-current="page">Home</a>
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Collaborate</a>
-        <div class="moon">
-          <svg viewBox="0 0 512 512" width="100" title="moon">
-            <path d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z" />
+        <a href="sections/work.html">Work</a>
+        <a href="sections/about.html">About</a>
+        <a class="resume" href="Assets/Cassidy Adroved Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+        <div class="dark-mode dark-toggle">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="sun size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
           </svg>
-        </div>
+          
+        
+        <svg class="moon size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+        </svg>             
+      </div>
 
       </div>
     </nav>
-    <hr class="section-divider">
   </header>
   <div class="snap">
   <main id="main">
 
     <section class="page-section">
   <section class="hero" id="top" aria-labelledby="heroTitle">
-    <div class="hero__text">
-      <p class="kicker">hello</p>
-      <h1 id="heroTitle" class="hero__title">Hi, I’m Cassidy Adroved<br>UX/UI & Brand designer</h1>
+    <div class="hero-text reveal reveal-left">
+      <p class="small-text">hello</p>
+      <h1 id="heroTitle" class="hero__title">Hi, I’m Cassidy Adroved<br>UX/UI & Brand Designer</h1>
       <p class="hero__subtitle">
         I design clean, confident experiences—balancing UX thinking with polished UI craft.
         I also build responsive front-ends with accessibility in mind.
       </p>
-      <button href="">View My Work</button>
+      <a class="hero-btn" href="sections/work.html">View My Work</a>
     </div>
-    <div class="image-container">
-      <img class="hero-img" src="https://cassidyadroved.design/wp-content/uploads/2026/03/cassidyadrovedhero.png">
+    <div class="image-container mask-reveal">
+      <img class="hero-img" src="images/Branding-cassidy Adroved.png">
     </div>
 
   </section>
+
   </section>
-  <section class="page-section">
-    <section class="section" aria-labelledby="workTitle">
-        <div class="work-container">
-          <section class="work" id="work">
-      
-            <div class="info">
-              <div class="info__bar"></div>
-              <h3 class="info__title">UX / UI</h3>
-              <p class="info__text">
-                Short line about the project group. Keep it tight so the layout stays crisp.
-              </p>
-              <a class="info__link" href="#">View all UX/UI →</a>
-            </div>
-      
-            <div class="work__wrap">
-              <article class="work-row">
-                <div class="work-row__grid">
-                    <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
 
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-            
-                                                    </div>
-              </article>
-            </div>
-      
-          </section>
-        </div>
-      </section>
-      </section>
-      <section class="page-section">
-
-      <section class="section" aria-labelledby="workTitle">
-        <div class="work-container">
-          <section class="work2" id="work2">
-      
-            <div class="work__wrap">
-              <article class="work-row">
-                <div class="work-row__grid">
-                    <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-            
-                                                    </div>
-                   
-                                                      
-              </article>
-            </div>
-            <div class="info">
-                <div class="info__bar"></div>
-                <h3 class="info__title">UX / UI</h3>
-                <p class="info__text">
-                  Short line about the project group. Keep it tight so the layout stays crisp.
-                </p>
-                <a class="info__link" href="#">View all UX/UI →</a>
-              </div>
-          </section>
-        </div>
-      </section>
-      </section>
-      <section class="page-section">
-      <section  aria-labelledby="workTitle">
-        <div class="work-container">
-          <section class="work" id="work3">
-      
-            <div class="info">
-              <div class="info__bar"></div>
-              <h3 class="info__title">UX / UI</h3>
-              <p class="info__text">
-                Short line about the project group. Keep it tight so the layout stays crisp.
-              </p>
-              <a class="info__link" href="#">View all UX/UI →</a>
-            </div>
-      
-            <div class="work__wrap">
-              <article class="work-row">
-                <div class="work-row__grid">
-                    <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-
-                      <a class="card card--tall" href="#">
-                        <img src="https://cassidyadroved.design/wp-content/uploads/2023/02/304.png" alt="Project name preview">
-                        <span class="card__label">Project Title</span>
-                        <span class="card__meta">UX/UI • 2026</span>
-                      </a>
-            
-                                                    </div>
-              </article>
-            </div>
-      
-          </section>
-        </div>
-        </section>
-        </section>
-        <section class="page-section">
-        <div class="hr">
-    <hr class="section-divider">
+  <section class="work-header reveal reveal-up">
+    <div class="work-header-text">
+      <h2>My Work</h2>
+      <h3>Work spanning UX/UI design, brand identity, and front-end development.</h3>
+      <p>Each project explores the intersection of UX/UI design, brand identity, and front-end development. I focus on creating intuitive, visually cohesive experiences by combining user-centered thinking with strong visual systems. From concept to execution, my work is driven by clarity, functionality, and thoughtful detail.</p>
+    </div>
+  </section>
+  <section class="category-wrapper">
+      <div class="ux-ui category">
+<div class="ux-ui-text reveal reveal-left">
+<div class="ux-ui-text-text">
+  <h3>UX/UI Design</h3>
+  <p>Designing experiences that are intuitive by default and beautiful by intention.
+  </p>
 </div>
-      <div class="about">
-        <div class="specialty">
-          <h3 id="aboutTitle" class="info__title">Ux/UI Design</h3>
-          <p>
-            Designing intuitive, usable experiences.</p>
-          <h3 id="aboutTitle" class="info__title">Brand Design</h3>
-          <p>
-            Design Building recognizable and trustworthy identities.</p>
-          <h3 id="aboutTitle" class="info__title">HTML, CSS, & Javascript</h3>
-          <p>
-            Development Turning design into functional products.
+<a href="sections/categories.html?category=ux" class="ux-ui-btn">
+  <button class="view-more">View More UX/UI Projects → </button>
+</a>
+
+
+</div>
+<div class="ux-ui-imgs reveal reveal-right">
+  <div class="project case-study-dot">
+    <a href="sections/case-study.html?project=Crave&category=ux">
+    <img src="images/crave10.jpeg" alt="Crave Coffee Co preview"></a>
+
+  </div>
+  <div class="project case-study-dot">
+    <a href="sections/case-study.html?project=Wish&category=ux">
+    <img src="images/wish-app6.jpeg" alt="Wish Social App preview"></a>
+  </div>
+  <a href="sections/case-study.html?project=Linked&category=ux">
+  <div class= "last project case-study-dot">
+    <img   src="images/linked14.jpg" alt="Linked Couples Resort preview"></a>
+  </div>
+
+</div> 
+</div>
+  </section>
+<section class="category-wrapper2">
+  <div class="frontend category">
+    <div class="frontend-text reveal reveal-left">
+    <div class="frontend-text-text">
+      <h3>Front-end Development</h3>
+      <p>Translating design systems into responsive, working interfaces for real-world use.
+      </p>
+    </div>
+           <a class="frontend-btn" href="sections/categories.html?category=front_end">
+            <button class="view-more">View More Front-End Projects →</button>
+          </a>
+    </div>
+    
+
+    
+
+    
+    <div class="frontend-imgs reveal reveal-right">
+      <div class="project">
+      <a href="sections/project.html?project=Simply%20Green&category=front_end">
+        <img src="images/simply-green11.jpeg" alt="Simply Green preview"></a>
+    
+      </div>
+      <div class="project case-study-dot">
+        <a href="sections/case-study.html?project=Giggle&category=front_end">
+        <img src="images/giggle3.jpeg" alt="Giggle Movie Database preview"></a>
+      </div>
+      <div class= "last project">
+        <a href="sections/project.html?project=Night%20Life&category=front_end">
+        <img  src="images/night-life3.jpeg" alt="Night Life Weather App preview"></a>
+      </div>
+    </div>
+  </div>
+      </section>
+      <section class="category-wrapper">
+      <div class="brand-identity category">
+        <div class="brand-identity-text reveal reveal-left">
+        <div class="brand-identity-text-text">
+          <h3>Branding and Layout Design</h3>
+          <p>Designing visual systems that bring structure, clarity, and consistency across formats.
           </p>
-
-    
-    </div>
-        <div class="about-info" aria-label="Quick details">
-            <p>
-                UX/UI, brand design, and front-end development each bring something different to the design process, and that’s why I enjoy working across all three. Even though each discipline plays a different role, they all share something I value deeply as a designer: consistency. Consistency in UX makes products easier to navigate. Consistency in branding creates recognition and trust. And consistency in code ensures the design is implemented clearly and reliably. That shared foundation is what I enjoy most — creating work where every piece supports the same cohesive experience.
-              </p>
         </div>
-        <div class="hr">
-        <hr class="section-divider">
-    </div>
-       
-
-        <div class="panel" aria-label="Quick details">
-            <p>
-                I’m a UX/UI Designer who loves turning messy problems into clean, confident interfaces.
-                My background blends brand identity, editorial design, and responsive web—so I design in systems.
-              </p>
+                <a href="sections/categories.html?category=branding" class="brand-identity-btn">
+                  <button class="view-more">View More Branding Projects →</button>
+                </a>
+        
+   
+        
         </div>
-        <div class="about2-cat">
-            <h3 id="aboutTitle">About</h3>
-            <p>
-              I’m a UX/UI Designer who loves turning messy problems into clean, confident interfaces.
-            </p>
-            <h3 id="aboutTitle">About</h3>
-            <p>
-              I’m a UX/UI Designer who loves turning messy problems into clean, confident interfaces.
-            </p>
-            <p class="muted">
-              Focus: usability, hierarchy, accessibility, and visual polish.
-            </p>
+        <div class="brand-identity-imgs reveal reveal-right">
+          <div class="project case-study-dot">
+            <a href="sections/case-study.html?project=Sunshine&category=branding">
+            <img src="images/sunshine3.jpeg" alt="Sunshine Coffee Co preview"></a>
+        
           </div>
+          <div class="project case-study-dot">
+            <a href="sections/case-study.html?project=Roots&category=branding">
+            <img src="images/roots2.jpeg" alt="Roots Farm and Food Co preview"></a>
+          </div>
+          <div class= "last project case-study-dot">
+            <a href="sections/case-study.html?project=Davena%20Farms&category=branding">
+            <img  src="images/davena6.jpeg" alt="Davena Farms preview"></a>
+          </div>
+        </div>
+        </div>
+        
+          </section>
+    
+
+<div class="about-home reveal reveal-up">
+  <div class="about-home-sd1">
+
+<div class="about-home-sd1-text">
+  <h3>Ux/UI Design
+  </h3>
+  <p>Designing intuitive, usable experiences.
+  </p>
+  <h3>Brand Design
+  </h3>
+  <p>Design Building recognizable and trustworthy identities.
+
+  </p>
+  <h3>HTML, CSS, & Javascript
+  </h3>
+  <p>Development Turning design into functional products.
+
+  </p>
+<p> UX/UI, brand design, and front-end development each bring something different to the design process, and that’s why I enjoy working across all three. Even though each discipline plays a different role, they all share something I value deeply as a designer: consistency. Consistency in UX makes products easier to navigate. Consistency in branding creates recognition and trust. And consistency in code ensures the design is implemented clearly and reliably. That shared foundation is what I enjoy most — creating work where every piece supports the same cohesive experience.
+</p>
+</div>
+<div class="about-home-sd1-img mask-reveal">
+  <img src="images/brand-cassidy-zoom1.png" alt="Crave Coffee Co preview">
+
+</div>
+  </div>
+  <div class="about-home-sd2">
+    <div class="about-home-sd2-img  mask-reveal">
+      <img src="images/brand-cassidy-zoom2.png" alt="Crave Coffee Co preview">
     
     </div>
-    <div class="hr">
-        <hr class="section-divider">
-    </div>
-    </section>
+    <div class="about-home-sd2-text">
+      <h3>Ux/UI Design
+      </h3>
+      <p> This website is a perfect example of that. The design, the typography, the color scheme, the interactions - all of it was built by me, from the ground up. It was all intentional, all deliberate. That is my brand: no unnecessary fluff, no extra filler. Just solid, confident design that doesn't need to apologize for itself. The logo is very personal to me. It is a flower, which represents growth, but every part of it represents something to me. The teardrop at the bottom represents me at the beginning of my journey - whole, complete, self-assured. The empty teardrops in the middle represent the years I was lost - constantly moving forward, but never stopping to look up and see where I was going. The squares pushing in to meet it are me trying to find my way back. And then there is the top - very similar to where I started, but bigger.
+      </p>
+      </div>
+      
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </main>
+  <hr class="section-divider">
+
   <section class="page-section">
   <footer class="site-footer" role="contentinfo">
-   
+   <div class="footer">
         <div class="footer-col1">   
 <h3>Explore</h3>
 <nav>
-<a href="#" rel="noopener">Home</a>
-<a href="#" rel="noopener">Projects</a>
-<a href="#" rel="noopener">About Me</a>
+  <a href="index.html" rel="noopener">Home</a>
+  <a href="sections/work.html" rel="noopener">Projects</a>
+  <a href="sections/about.html" rel="noopener">About Me</a>
 </nav>
 </div>
 
 <div class="footer-col2">   
     <h3>Get In Touch</h3>
     <nav>
-        <a class="contact-card" role="listitem" href="assets/Cassidy-Adroved-Resume.pdf" target="_blank" rel="noopener">Resume</a>
-        <a class="contact-card" role="listitem" href="mailto:cassidyadroved@gmail.com">
+      <a class="resume" href="Assets/Cassidy Adroved Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+      <a class="contact-card" role="listitem" href="mailto:cassidyadroved@gmail.com">
             <span class="contact-card__value">cassidyadroved@gmail.com</span>
           </a>
 
@@ -320,23 +277,32 @@
     <div class="footer-col3">   
         <h3>Social</h3>
         <nav>
-        <a href="#" rel="noopener">LinkedIn</a>
-        <a href="#" rel="noopener">Dribbble</a>
-        <a href="#" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/in/cassidyadroved/" rel="noopener">LinkedIn</a>
+          <a href="https://dribbble.com/Cassidy-Adroved" rel="noopener">Dribbble</a>
+          <a href="https://www.instagram.com/cassidyadroved.design/" rel="noopener">Instagram</a>
     </nav>
         </div>
-
-<div class="bottom-bar-image">    
-        <img src="">
-        </div>
-        <div class="bottom-bar-c">
-        <p class="muted">© <span id="year"></span> Cassidy Adroved</p>
     </div>
 
+<div class="bottom-bar-wrapper">   
+    <div class="bottom-bar-image">
+    <div class="footer-image">
+      <picture>
+        <source srcset="images/Cassidy-adroved-title-center.png" media="(max-width: 700px)">
+        <img src="images/Cassidy-adroved-title.png" alt="Cassidy Adroved UX/UI Designer Short logo">
+      </picture>
+    </div>
+        <div class="bottom-bar-c">
+        <p class="muted">© <span id="year"></span> CassidyAdroved.design</p>
+    </div>
+</div>
+</div>
   </footer>
 </div>
 </section>
-  <script src="script.js"></script>
+<script src="script.js"></script>
+<script src="data.js"></script>
+<script src="category-loader.js"></script>
 </body>
 
 </html>
