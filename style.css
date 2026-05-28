@@ -142,8 +142,10 @@ body.dark-mode-theme .logo img {
 }
 
 .logo img {
-	width: 100%;
-	height: 4em;
+  width: auto;
+  height: 4em;
+  max-width: 100%;
+  object-fit: contain;
 }
 .nav-toggle.active svg {
   transform: rotate(90deg);
@@ -1519,8 +1521,10 @@ padding-top: 0rem !important;
 
 .case img
  {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  background: var(--light-gray);
+  display: block;
 }
 .wpadd {
 padding-top: 0rem !important;
@@ -1605,7 +1609,8 @@ padding-top: 0rem !important;
   }
 
   .logo img {
-    height: 3em;
+    width: 100%;
+  height: 3em;
   }
 
   .hero-text,
@@ -1618,6 +1623,18 @@ padding-top: 0rem !important;
   .about-home-sd2-text {
     padding: 1.5em;
   }
+  .case-study .about-page-large{
+
+    aspect-ratio: 16 / 9;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius);
+  }
+  .case-study .about-page-small {
+    height: auto;
+    min-height: auto;
+  }
+
 
   .ux-ui,
   .brand-identity,
