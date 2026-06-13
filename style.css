@@ -16,6 +16,7 @@
 --inner: #ffffff;
 --inner-dark: #131313;
 --inner-accent: #6ea884;
+--inner-lightgray: #F7F7F7;
 }
 
 body.dark-mode-theme {
@@ -24,7 +25,7 @@ body.dark-mode-theme {
   --light-gray: #2B2B2B;
   --accent: #6ea884;
   --shadow: 00 0px 6px 0 rgba(0, 0, 0, 0.5);
-
+  --inner-lightgray: #ffffff;
 }
 
 /* =========================
@@ -386,7 +387,12 @@ text-decoration: none;
   z-index: 1;
 }  
 
-
+.cat-page-large, .cat-page-small {
+  height: clamp(260px, 38vw, 560px);
+}
+.about-page-large, .about-page-small {
+  height: clamp(260px, 30vw, 520px);
+}
 .project-marker {
   position: relative;
   overflow: hidden;
@@ -787,10 +793,23 @@ body.dark-mode-theme .project:hover img {
 .cat-align-button {
 	align-self: end;
 }
+.cat-page:nth-of-type(odd) .cat-page-small {
+  background-color: var(--inner-lightgray);
+}
 
+.cat-page:nth-of-type(even) .cat-page-small {
+  background-color: var(--inner);
+}
 .cat-page:nth-of-type(even) {
 	background-color: var(--light-gray);
 }
+
+.about .about-page-small {
+  background-color: var(--inner-lightgray);
+  
+}
+
+
 
 
 /* =========================
@@ -1339,6 +1358,15 @@ footer img {
     gap: 2em;
     padding: 0 2em ;
   }
+  .case-study .about-page-small-large, .case-study
+  .about-page-large-small {
+    grid-template-rows: 50vh 50vh;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    place-self: normal;
+    gap: 2em;
+    padding: 0 2em ;
+  }
   .about-page, .cat-page {
     padding-bottom: 2rem;
   }
@@ -1394,6 +1422,11 @@ footer img {
 .wpadd {
 padding-top: 0rem !important;
 }
+
+.about .wpadd {
+  padding-top: 2rem !important;
+}
+
 .wpadd-case {
   padding-top: 2em !important;
 }
@@ -1734,6 +1767,7 @@ padding-top: 0rem !important;
   .about-home-sd1-text,
   .about-home-sd2-text {
     padding: 1.25em;
+    padding-bottom: 3em;
   }
 
   .work-header,
@@ -1779,16 +1813,7 @@ padding-top: 0rem !important;
   gap: 1.5em;
 }
 /* process/card sections */
-.cat-page-large,
-.cat-page-small {
-  height: clamp(260px, 38vw, 560px);
-}
 
-/* final gallery */
-.about-page-large,
-.about-page-small {
-  height: clamp(260px, 30vw, 520px);
-}
 
 .about-page-large,
 .about-page-small,
