@@ -142,10 +142,12 @@ body.dark-mode-theme .logo img {
 }
 
 .logo img {
-  width: auto;
-  height: 4em;
-  max-width: 100%;
-  object-fit: contain;
+
+    width: auto;
+    height: 4em;
+    max-width: 100%;
+    object-fit: contain;
+  
 }
 .nav-toggle.active svg {
   transform: rotate(90deg);
@@ -1242,9 +1244,7 @@ footer img {
     width: 100%;
   }
 
-  .nav {
-    padding: .8em 2em;
-  }
+
 }
 
 /* Tablet landscape / iPad Pro */
