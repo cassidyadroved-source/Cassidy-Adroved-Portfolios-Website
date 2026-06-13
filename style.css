@@ -1565,6 +1565,7 @@ padding-top: 0rem !important;
     position: relative;
     max-width: 100%;
     padding: .8em 1em;
+    margin: 0;
   }
 
   .nav-links {
