@@ -1215,6 +1215,7 @@ footer img {
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
+    padding: .8em 2em;
   }
 
   .about-home,
@@ -1563,7 +1564,7 @@ padding-top: 0rem !important;
   .nav {
     position: relative;
     max-width: 100%;
-    padding: 1em;
+    padding: .8em 1em;
   }
 
   .nav-links {
