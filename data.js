@@ -1,8 +1,8 @@
 const categories = {
   ux: {
     title: "UX/UI Design",
-    sub_title: "Designing intuitive, structured digital experiences.",
-    description: "These projects focus on creating user-centered interfaces that balance clarity, usability, and visual structure. From research and wireframing to final interface design, each solution is built to guide users naturally while supporting engagement and long-term interaction.",
+    sub_title: "Designing intuitive digital experiences.",
+    description: "UX/UI projects focused on researching user needs, exploring solutions, and designing interfaces that are clear, functional, and easy to navigate.",
     sectionTitles: [
       "Research",
       "Personas",
@@ -28,8 +28,8 @@ const categories = {
   },
   branding: {
     title: "Branding & Layout Design",
-    sub_title: "Building thoughtful and cohesive brand systems",
-    description: "These branding projects explore identity through typography, color, layout, and storytelling. Each system is designed to create consistency, recognition, and personality across both digital and physical touchpoints.",
+    sub_title: "Building thoughtful and cohesive brand systems.",
+    description: "Branding projects that explore visual identity through typography, color, layout, and storytelling to create recognizable and cohesive brand experiences.",
     sectionTitles: [
       "Research",
       "Audience",
@@ -61,8 +61,8 @@ const categories = {
   },
   front_end: {
     title: "Front-end Development",
-    sub_title: "Bringing design to life through code",
-    description: "These projects translate visual concepts into responsive, functional interfaces using front-end development. The focus is on structure, accessibility, and interaction while maintaining consistency between design and implementation.",
+    sub_title: "Bringing design to life through code.",
+    description: "Front-end development projects focused on building responsive, accessible experiences that stay true to the original design while performing well across devices.",
     sectionTitles: [
       "Research",
       "Planning",
@@ -85,7 +85,7 @@ const projects = {
   Wish: {
     title: "Wish",
     sub_title: "A social platform designed for growth",
-    paragraph: "Concept for a social media app that allows users to make wishes, monitor their progress, and connect with others in a positive way.",
+    paragraph: "Wish is a social app concept that helps users set personal goals, track their progress, and stay motivated through a supportive community.",
     main_img: {
       src: "../images/wish-app6.jpeg",
       alt: "Wish app interface screens"
@@ -93,12 +93,11 @@ const projects = {
     role: "UX/UI Designer",
     deliverables: "App Design",
     tools: "Figma, Adobe Photoshop",
-    overview: "Wish is a social motivation app idea that helps people set goals, see how far they've come, and stay motivated by interacting with other users. The interface combines personal tracking tools with social engagement features to help users build positive habits over time and receive encouragement throughout the process.",
-    problem: "Most social media platforms focus more on comparison than personal growth. People who want to stay motivated, organized, and encouraged often lack tools that help them set goals while also connecting with a supportive community.",
-    goal: "Create a positive social platform that gives users the ability to organize their aspirations, track progress through structured goal-setting tools, and stay motivated through supportive community interaction.",
+    problem: "Many social platforms encourage comparison rather than growth. People looking to build better habits or work toward personal goals often have to rely on separate apps for planning, tracking, and motivation.",    goal: "Create a positive social platform that gives users the ability to organize their aspirations, track progress through structured goal-setting tools, and stay motivated through supportive community interaction.",
+    goal: "Design a positive social experience where users can organize goals, track progress, and stay motivated through encouragement from others.",
     final_subtitle: "Final interface supporting structured motivation",
-    final_paragraph: "The final design brings together goal tracking, inspiration feeds, and community interaction into one cohesive platform focused on encouragement and progress. By structuring features around milestone tracking and positive engagement, Wish creates a space where users can stay motivated while working toward meaningful aspirations.",
-    small_images: [
+    final_paragraph: "The final design brings together goal tracking, community interaction, and motivational content in one experience. Users can set milestones, share progress, and connect with others who are working toward similar goals.",
+        small_images: [
       {
         src: "../images/wish-app5.jpeg",
         alt: "Wish app badge screens"
@@ -132,43 +131,37 @@ const projects = {
     ],
     research: [
       {
-        text: "The initial research focused on how people use motivation-based platforms and why traditional social media sites do not always support personal growth. Many users reported feeling overwhelmed by negativity, a lack of structure, and limited tools for tracking meaningful goals. Research on the target audience showed that users between the ages of 15 and 35 are especially interested in mindfulness, self-improvement, and supportive communities. These users want daily inspiration, tools for setting and reaching goals, and spaces that encourage progress without creating pressure to compare themselves to others.",
-        img: "../images/Wish-case_14.png",
+        text: "Research focused on understanding how people stay motivated and why many existing social platforms fall short when it comes to personal growth. Users expressed a desire for more positive online spaces that support goal setting, progress tracking, and encouragement without the pressure of constant comparison.",        img: "../images/Wish-case_14.png",
         alt: "Wish app research and competitor analysis"
       }
     ],
     personas: [
       {
-        text: "Sarah represents users who are trying to figure out their next steps while balancing responsibilities and long-term goals. She wants to grow personally, but struggles with organization and follow-through. Wish supports users like Sarah by providing structured goal tracking, motivational tools, and a positive social environment that lowers stress while encouraging steady progress.",
-        img: "../images/Wish-case_12.png",
+        text: "Sarah represents people who are working toward personal goals but struggle to stay organized and consistent. She wants tools that help her break larger goals into manageable steps while staying motivated throughout the process.",        img: "../images/Wish-case_12.png",
         alt: "Wish app persona and user profile screens"
       }
     ],
     userflows: [
       {
-        text: "The user flows focused on wish creation, milestone tracking, interaction with inspirational content, and engagement with community-generated posts. These pathways were designed to help users move smoothly between personal goal-setting tools and social features while staying focused on meaningful progress.",
-        img: "../images/Wish-case_18.png",
+        text: "The user flows were built around creating goals, tracking milestones, discovering motivational content, and interacting with the community. The focus was on making it easy to move between personal progress tools and social features.",        img: "../images/Wish-case_18.png",
         alt: "Wish app user flow screens"
       }
     ],
     wireframes: [
       {
-        text: "The wireframes mapped out the structure of the core experience, including wish creation, milestone tracking, inspirational content, and community interaction. The goal was to build a clear framework that supports both personal growth and social encouragement within one platform.",
-        img: "../images/Wish-case_16.png",
+        text: "The wireframes explored the structure of key features including goal creation, milestone tracking, community posts, and inspirational content. Early layouts focused on keeping navigation simple while giving users quick access to the tools they use most.",        img: "../images/Wish-case_16.png",
         alt: "Wish app wireframe layouts"
       }
     ],
     designsolution: [
       {
-        text: "The platform also includes community interaction features such as likes and comments to encourage support between users. Inspiration feeds and mindfulness-based content were added to strengthen motivation and emotional well-being throughout the experience.",
-        img: "../images/Wish-case_20.png",
+        text: "The design combines personal goal management with social interaction. Community features such as likes, comments, and shared progress updates help create a supportive environment, while motivational content encourages users to stay engaged with their goals.",        img: "../images/Wish-case_20.png",
         alt: "Wish app community and motivation screens"
       }
     ],
     feature: [
       {
-        text: "The posting tools are designed to help users clearly express their goals and aspirations. Milestone tracking supports step-by-step progress toward a larger goal while making achievements feel more manageable.",
-        img: "../images/Wish-case_26.png",
+        text: "Users can create goals, track milestones, and share progress with the community. Achievement badges and progress indicators help make long-term goals feel more attainable by breaking them into smaller steps.",        img: "../images/Wish-case_26.png",
         alt: "Wish app feature screens showing badges and progress tools",
       }
     ]
@@ -176,20 +169,19 @@ const projects = {
   Crave: {
     title: "Crave",
     sub_title: "Designing a streamlined self-service café ordering flow",
-    paragraph: "The Crave Coffee Co kiosk is a self-service ordering system designed to support efficient menu navigation, beverage customization, and order placement while reducing wait times in a café environment.",
-    main_img: {
+    paragraph: "Crave Coffee Co is a self-service kiosk concept designed to help customers browse the menu, customize orders, and check out quickly during busy café hours.",    main_img: {
       src: "../images/crave10.jpeg",
       alt: "Crave kiosk interface screens"
     },
     role: "UX/UI Designer, Brand Identity Designer",
     deliverables: "Kiosk Interface Design, Branding",
     tools: "Adobe XD, Adobe Photoshop, Adobe Illustrator",
-    overview: "This project explores the design process for a self-service ordering kiosk for Crave Coffee Co. The goal was to create a fast, user-friendly system that streamlines menu navigation, customization, and checkout while supporting both first-time and returning customers.",
-    problem: "Traditional café ordering often causes congestion during busy hours. Customers must wait in line or navigate unclear digital systems that slow the process further. The challenge was to design a kiosk that reduces wait time while keeping ordering simple, clear, and accessible in a shared public setting.",
-    goal: "Design a touch-friendly kiosk system that supports quick ordering, customization, and saved-order access for returning users while helping new users move through the process with confidence.",
-    final_subtitle: "Final kiosk experience to support fast café ordering",
-    final_paragraph: "The final kiosk experience supports fast café ordering through a clear structure that recognizes returning users while maintaining simplicity for new ones. By allowing users to order from saved profiles, recall previous orders, and enter table tent numbers for table delivery, the system helps reduce friction while preserving clarity throughout the process.",
-    small_images: [
+    overview: "This project explores the design of a self-service ordering kiosk for Crave Coffee Co. The goal was to create a simple and efficient experience that helps customers place orders with minimal friction, whether they're first-time visitors or regular customers.",
+    problem: "Busy cafés often deal with long lines and rushed ordering experiences. Customers need a faster way to place and customize orders without feeling overwhelmed by the interface.",
+    goal: "Design a kiosk experience that makes ordering fast, intuitive, and accessible while giving returning customers an easy way to reorder their favorites.",
+        final_subtitle: "Final kiosk experience to support fast café ordering",
+        final_paragraph: "The final kiosk experience helps customers move through the ordering process quickly while still allowing room for customization. Features like saved orders, guest checkout, and table delivery support a smoother café experience from start to finish.",
+            small_images: [
       {
         src: "../images/crave4.jpeg",
         alt: "Crave opening screen"
@@ -224,79 +216,79 @@ const projects = {
     ],
     research: [
       {
-        text: "The research explored how users interact with ordering kiosks in fast-paced café environments where speed and ease of use are essential. Competitive analysis showed that many coffee brands rely more heavily on mobile ordering than in-store kiosks, creating an opportunity to design a more efficient physical ordering experience.",
-        img: "../images/Crave-case_14.png",
+        text: "Research focused on how customers interact with self-service kiosks in fast-paced food and beverage environments. Looking at existing ordering systems helped identify opportunities to improve navigation, customization, and overall speed.",
+                img: "../images/Crave-case_14.png",
         alt: "Crave kiosk research and competitive analysis"
       }
     ],
     personas: [
       {
-        text: "The kiosk was designed for busy café customers who want to place orders quickly before work or during short breaks. These users already rely on digital tools in daily life and expect ordering technology to reduce friction rather than create it. They also want to reorder familiar items without losing the option to customize.",
-        img: "../images/Crave-case_12.png",
+        text: "The primary audience includes busy customers who want to grab coffee or food without spending extra time waiting in line. They expect technology to make the process easier, not add more steps.",
+                img: "../images/Crave-case_12.png",
         alt: "Crave kiosk persona screens"
       }
     ],
     userflows: [
       {
-        text: "The user flow includes three primary paths: new customer ordering, returning customer ordering, and guest checkout. New users can create a profile with phone verification, while returning users can access saved orders for faster reordering. From there, users browse categories, customize items, review their cart, enter a table tent number, choose payment options, and confirm their order.",
-        img: "../images/Crave-case_18.png",
+        text: "The user flow covers three main paths: new users, returning users, and guest checkout. Each path was designed to help customers complete their orders quickly while still providing options for customization and account management.",
+                img: "../images/Crave-case_18.png",
         alt: "Crave kiosk user flow screens"
       }
     ],
     wireframes: [
       {
-        text: "The wireframes focused on menu hierarchy, interaction order, and category navigation to help customers make quick decisions while ordering. The layouts emphasized large touch targets, strong visual hierarchy, and simple movement between steps.",
-        img: "../images/Crave-case_16.png",
+        text: "Early wireframes focused on menu organization, category navigation, and the overall ordering process. Large touch targets and a clear visual hierarchy helped keep the experience easy to follow.",
+                img: "../images/Crave-case_16.png",
         alt: "Crave kiosk wireframes"
       }
     ],
     designsolution: [
       {
-        text: "The design solution introduced multiple entry points for new users, returning users, and guests, along with SMS verification for profile access. The ordering system was structured around clear category browsing, saved-order recall, and customization panels that help users adjust food and drink selections without confusion.",
-        img: "../images/Crave-case_26.png",
+        text: "The final design gives customers multiple ways to start an order, whether through a saved account, guest checkout, or a returning user profile. Clear navigation and simple customization screens help reduce confusion throughout the process.",
+                img: "../images/Crave-case_26.png",
         alt: "Crave kiosk design solution screens",
   
       }
     ],
     feature: [
       {
-        text: "The kiosk also includes cart editing, table tent number entry for order-to-table service, checkout with tipping options, payment confirmation, and receipt delivery to the user's phone.",
-        img: "../images/Crave-case_24.png",
+        text: "Key features include saved orders, menu customization, table delivery support, cart editing, tipping options, and digital receipt delivery.",
+                img: "../images/Crave-case_24.png",
         alt: "Crave kiosk cart and checkout features"
       }
     ],
     audience: [
       {
-        text: "The brand targets customers looking for a quick and reliable café experience while still feeling welcomed by a neighborhood coffee shop atmosphere. Many users visit during busy morning routines and benefit from a system that feels familiar, simple to navigate, and visually calm.",
-        img: "../images/Crave-case_2.png",
+        text: "Crave Coffee Co is aimed at customers looking for a quick and convenient café experience without losing the welcoming feel of a local coffee shop.",
+                img: "../images/Crave-case_2.png",
         alt: "Crave brand audience and interface application"
       }
     ],
     color_scheme: [
       {
-        text: "The color palette was designed to reflect warmth and comfort commonly associated with café environments. Neutral backgrounds support readability, while warm accent tones highlight interaction points and important actions. Soft browns and warm beige tones reinforce the coffee theme while maintaining contrast across kiosk screens.",
-        img: "../images/Crave-case_4.png",
+        text: "The color palette was inspired by the warmth of a café environment. Soft neutrals and earthy tones create a comfortable feel, while accent colors help highlight important actions throughout the interface.",
+                img: "../images/Crave-case_4.png",
         alt: "Crave kiosk color palette"
       }
     ],
     logo: [
       {
-        text: "The Crave Coffee Co logo combines a clean wordmark with a simple circular icon inspired by coffee textures and café culture. The mark was designed to remain recognizable at multiple sizes and across both physical signage and digital interface applications.",
-        img: "../images/Crave-case_6.png",
+        text: "The logo combines a clean wordmark with a simple icon inspired by coffee culture. It was designed to remain recognizable across both digital and physical applications.",
+                img: "../images/Crave-case_6.png",
         alt: "Crave Coffee Co logo design"
       }
     ],
     typography: [
       {
-        text: "Typography was selected to balance personality with readability. Como Bold is used for headings to create strong visual anchors, while Urbane Rounded supports subheadings and body text to maintain clarity across interface screens. This pairing creates a friendly tone while staying legible in a fast-paced ordering environment.",
-        img: "../images/Crave-case_10.png",
+        text: "Typography was chosen to balance personality and readability. The type system helps guide users through the ordering process while supporting the brand's approachable tone.",
+                img: "../images/Crave-case_10.png",
         alt: "Crave typography system"
       }
     ],
     supporting_elements: [
       {
-        text: "Supporting graphics include a repeating coffee bean pattern and a simple icon set that reinforce the brand personality without overwhelming the interface. These elements create consistency across screens while adding warmth to an otherwise minimal system.",
-        img: "../images/Crave-case_8.png",
+        text: "Supporting graphics such as patterns and icons help reinforce the brand while adding visual interest without distracting from the ordering experience.",
+                img: "../images/Crave-case_8.png",
         alt: "Crave brand supporting elements"
       }
     ]
@@ -305,20 +297,20 @@ const projects = {
   Giggle: {
     title: "Giggle",
     sub_title: "A playful streaming experience built around discovery",
-    paragraph: "Giggle is a movie streaming concept focused on creating a more engaging browsing experience through strong visual hierarchy, categorized content, and streamlined movie discovery.",
-    main_img: {
+    paragraph: "Giggle is a streaming platform concept designed to make browsing and discovering movies more enjoyable through strong visuals and organized content.",
+        main_img: {
       src: "../images/giggle14.jpeg",
       alt: "Giggle streaming platform screens"
     },
     role: "UX/UI Designer, Brand Identity Designer, Front-end Developer",
     deliverables: "Streaming Platform Design, Branding, Front-end Development",
     tools: "Figma, HTML, CSS, JavaScript",
-    overview: "Giggle is a streaming platform concept designed to improve how users browse and discover entertainment content. The experience combines strong visual hierarchy with categorized browsing systems and detailed movie pages that encourage exploration while keeping navigation simple and intuitive.",
-    problem: "Many streaming platforms overwhelm users with cluttered interfaces and excessive content, making it difficult to quickly find something engaging to watch. Users often spend more time browsing than interacting with content itself.",
-    goal: "Design a playful and visually engaging streaming platform that simplifies movie discovery while supporting fast browsing, categorized exploration, and detailed film information.",
-    final_subtitle: "Final streaming interface focused on discovery and engagement",
-    final_paragraph: "The final experience emphasizes movie discovery through featured content sections, categorized browsing systems, and detailed movie information pages. By combining playful visuals with structured navigation, the interface encourages users to explore content while maintaining clarity and ease of use throughout the experience.",
-    small_images: [
+    overview: "Giggle was created to explore how a streaming platform could make content discovery feel more engaging. The design focuses on helping users find movies quickly through clear categories, featured content, and detailed movie pages.",
+    problem: "Many streaming services present users with so much content that finding something to watch can become frustrating. Cluttered layouts and repetitive recommendations often make browsing feel overwhelming.",
+    goal: "Design a streaming experience that makes movie discovery easier through clear navigation, organized content, and a more engaging visual experience.",
+        final_subtitle: "Final streaming interface focused on discovery and engagement",
+        final_paragraph: "The final design uses featured content, category-based browsing, and detailed movie pages to help users discover new films while keeping navigation simple and easy to follow.",
+            small_images: [
       {
         src: "../images/giggle2.jpeg",
         alt: "Giggle movie categories"
@@ -354,64 +346,64 @@ const projects = {
     ],
     research: [
       {
-        text: "The research explored how users browse streaming services and what causes frustration during content discovery. Competitive analysis showed that many platforms overload users with information while lacking clear visual hierarchy or meaningful categorization systems.",
-        img: "../images/giggle-case_14.png",
+        text: "Research focused on how users browse streaming platforms and what makes content discovery difficult. Looking at existing services helped identify opportunities to improve organization, visual hierarchy, and navigation.",
+                img: "../images/giggle-case_14.png",
         alt: "Giggle streaming competitor analysis"
       }
     ],
     personas: [
       {
-        text: "The primary audience includes younger users who frequently consume digital entertainment and expect modern interfaces that feel interactive and visually engaging. These users want quick access to content, personalized discovery experiences, and interfaces that feel playful without becoming overwhelming.",
-        img: "../images/giggle-case_12.png",
+        text: "The primary audience includes people who regularly use streaming services and want a faster way to discover content. They value personalization, quick access to information, and visually engaging interfaces.",
+                img: "../images/giggle-case_12.png",
         alt: "Giggle user persona"
       }
     ],
     userflows: [
       {
-        text: "The user flow focuses on fast content discovery. Users can move from featured content on the homepage into categorized movie sections, detailed movie pages, and external links for additional information about directors or actors.",
-        img: "../images/giggle-case_18.png",
+        text: "The user flow follows the path from browsing featured content to exploring categories, viewing movie details, and finding additional information about films, actors, and directors.",
+                img: "../images/giggle-case_18.png",
         alt: "Giggle user flow"
       }
     ],
     wireframes: [
       {
-        text: "The wireframes focused on homepage hierarchy, category organization, and the relationship between browsing sections and detailed movie pages. Layouts were structured to encourage continuous exploration while maintaining readability.",
-        img: "../images/giggle-case-16.png",
+        text: "The wireframes explored homepage layouts, content organization, and movie detail pages. Early concepts focused on making large amounts of content easier to browse and scan.",
+                img: "../images/giggle-case-16.png",
         alt: "Giggle wireframes"
       }
     ],
     designsolution: [
       {
-        text: "The design solution uses large featured content areas, categorized movie rows, and clear visual separation between browsing sections to simplify navigation. Interactive elements such as hover states and expandable movie details help users feel more connected to the platform.",
-        img: "../images/giggle-case_20.png",
+        text: "The design uses featured content sections, organized movie categories, and clear visual separation between content groups. Interactive elements help users explore movies without making the interface feel cluttered.",
+                img: "../images/giggle-case_20.png",
         alt: "Giggle design solutions",
       }
     ],
     feature: [
       {
-        text: "Features include featured movie banners, categorized browsing sections, thumbs-up and thumbs-down interaction systems, linked director profiles, release dates, ratings, and searchable movie collections.",
-        img: "../images/giggle-case_26.png",
+        text: "Features include movie categories, featured content sections, searchable collections, ratings, release information, and links to additional details about actors and directors.",
+                img: "../images/giggle-case_26.png",
         alt: "Giggle feature highlights",
       }
     ],
     audience: [
       {
-        text: "Giggle targets entertainment-focused users who enjoy modern streaming experiences that feel playful, interactive, and visually engaging. The platform appeals especially to younger audiences who value both personalization and ease of discovery.",
-        img: "../images/giggle-case_2.png",
+        text: "Giggle is designed for entertainment-focused users who enjoy discovering new content and want a streaming experience that feels modern, fun, and easy to use.",
+                img: "../images/giggle-case_2.png",
         alt: "Giggle target audience"
       }
     ],
     color_scheme: [
       {
-        text: "The color palette combines dark interface backgrounds with bright accent colors to create contrast while reinforcing the cinematic atmosphere. Accent colors help guide attention toward featured content, navigation, and interaction points.",
-        img: "../images/giggle-case_4.png",
+        text: "The color palette combines dark backgrounds with bold accent colors to create contrast and draw attention to featured content and key interactions.",
+                img: "../images/giggle-case_4.png",
         alt: "Giggle color palette"
       }
     ],
     logo: [
       {
-        text: "The Giggle logo uses rounded typography and playful visual treatment to reinforce the platform’s lighthearted entertainment focus while remaining clean and adaptable across multiple screen sizes.",
-        img: "../images/giggle-case_6.png",
+        text: "Supporting elements include movie thumbnails, icons, hover interactions, and category systems that help create a consistent experience throughout the platform.",
+                        img: "../images/giggle-case_6.png",
         alt: "Giggle logo system"
       }
     ],
@@ -431,36 +423,36 @@ const projects = {
     ],
     research_front: [
       {
-        text: "Front-end planning focused on reusable movie cards, categorized content sections, navigation systems, and responsive layouts that maintain consistency across screen sizes.",
-        img: "../images/giggle-case_18.png",
+        text: "Front-end planning focused on building reusable components such as movie cards, navigation systems, and content rows that could scale across the platform.",
+                img: "../images/giggle-case_18.png",
         alt: "Giggle front-end component planning"
       }
     ],
     planning: [
       {
-        text: "The site structure was organized around reusable content rows and responsive grid systems to simplify scaling while maintaining consistency throughout the platform.",
-        img: "../images/giggle-case-16.png",
+        text: "The site structure was organized around reusable layouts and responsive grids to maintain consistency while supporting a growing content library.",
+                img: "../images/giggle-case-16.png",
         alt: "Giggle layout planning"
       }
     ],
     semantic_layout: [
       {
-        text: "The interface uses semantic HTML structure including header, navigation, main content, categorized sections, and footer layouts to improve accessibility and organization.",
-        img: "../images/giggle-case-30.png",
+        text: "Semantic HTML elements were used to organize navigation, featured content, movie categories, and supporting information in a clear and accessible way.",
+                img: "../images/giggle-case-30.png",
         alt: "Giggle semantic layout"
       }
     ],
     consistency: [
       {
-        text: "Consistency was maintained through reusable movie cards, repeated spacing systems, consistent button styling, and shared interaction patterns across all sections.",
-        img: "../images/giggle-case_8.png",
+        text: "Consistency was maintained through reusable components, shared spacing patterns, and repeated interaction styles across the site.",
+                img: "../images/giggle-case_8.png",
         alt: "Giggle consistency system"
       }
     ],
     responsive_design: [
       {
-        text: "The responsive system adapts categorized content rows and navigation layouts across desktop, tablet, and mobile screen sizes while preserving usability and visual hierarchy.",
-        img: "../images/giggle-case-34.png",
+        text: "The responsive design adapts layouts for desktop, tablet, and mobile screens while preserving readability and usability across devices.",
+                img: "../images/giggle-case-34.png",
         alt: "Giggle responsive layouts"
       }
     ]
@@ -468,20 +460,20 @@ const projects = {
   Balanced: {
     title: "Balanced",
     sub_title: "A wellness experience centered around mindfulness and movement",
-    paragraph: "Balanced is a wellness app concept focused on helping users build healthier routines through meditation, yoga, workouts, and progress tracking within one structured platform.",
-    main_img: {
+    paragraph: "Balanced is a wellness app concept designed to help users build healthier routines through meditation, yoga, workouts, and progress tracking.",
+        main_img: {
       src: "../images/balanced21.jpeg",
       alt: "Balanced wellness app screens"
     },
     role: "UX/UI Designer, Brand Identity Designer",
     deliverables: "App Design, Branding",
     tools: "Figma, Adobe Photoshop, Adobe Illustrator",
-    overview: "Balanced is a wellness application designed to support mindfulness, fitness, and personal growth through a combination of guided meditation, yoga routines, workouts, and achievement tracking. The experience focuses on creating a calm and motivating environment that encourages users to develop healthier habits over time.",
-    problem: "Many wellness applications focus too heavily on either fitness or mindfulness without creating a cohesive experience that connects physical and mental well-being. Users often struggle to maintain routines because platforms feel overwhelming or disconnected.",
-    goal: "Create a wellness platform that combines mindfulness and fitness tools into one cohesive experience while encouraging consistency through progress tracking, guided routines, and motivational achievements.",
-    final_subtitle: "Final wellness platform supporting mindful routines",
-    final_paragraph: "The final experience combines guided meditation, yoga, fitness tracking, and achievement systems into a unified wellness platform. By organizing content through structured navigation and calming visual design, Balanced encourages users to develop sustainable wellness habits without feeling overwhelmed.",
-    small_images: [
+    overview: "Balanced was created to bring mindfulness and fitness tools into one experience. The app helps users build routines, track progress, and access guided wellness content through a simple and organized interface.",
+    problem: "Many wellness apps focus on either fitness or mindfulness, forcing users to switch between multiple platforms to manage their routines. This can make it harder to stay consistent over time.",
+    goal: "Design a wellness app that combines mindfulness and fitness tools in one place while making it easy for users to build and maintain healthy habits.",
+        final_subtitle: "Final wellness platform supporting mindful routines",
+        final_paragraph: "The final design brings together meditation, yoga, workouts, and progress tracking in a single platform. Clear navigation and a calming visual style help users focus on building routines without feeling overwhelmed.",
+            small_images: [
       {
         src: "../images/balanced2.jpeg",
         alt: "Balanced dashboard"
@@ -516,78 +508,78 @@ const projects = {
     ],
     research: [
       {
-        text: "Research focused on wellness applications that combine fitness and mindfulness tools. Competitive analysis revealed that users value simple navigation, calming visuals, achievement systems, and personalized routines that help maintain long-term consistency.",
-        img: "../images/Balanced-case_14.png",
+        text: "Research explored how people use wellness apps and what encourages them to stick with healthy routines. Many users valued simple navigation, personalized content, and progress tracking that helped them stay motivated.",
+                img: "../images/Balanced-case_14.png",
         alt: "Balanced research and competitor analysis"
       }
     ],
     personas: [
       {
-        text: "The target audience includes users looking to improve both physical and mental wellness through structured daily routines. Many users want guidance and motivation while avoiding overly intense or stressful fitness experiences.",
-        img: "../images/Balanced-case_12.png",
+        text: "The target audience includes people looking to improve both their physical and mental well-being. They want guidance and structure without the pressure often associated with traditional fitness apps.",
+                img: "../images/Balanced-case_12.png",
         alt: "Balanced persona screens"
       }
     ],
     userflows: [
       {
-        text: "The user flow focuses on guiding users from onboarding into meditation, workouts, yoga categories, and achievement systems while keeping navigation simple and approachable.",
-        img: "../images/Balanced-case_18.png",
+        text: "The user flow focuses on helping users move between meditation, workouts, yoga sessions, and progress tracking while keeping navigation simple and easy to understand.",
+                img: "../images/Balanced-case_18.png",
         alt: "Balanced user flow"
       }
     ],
     wireframes: [
       {
-        text: "Wireframes focused on dashboard hierarchy, content organization, and quick access to workouts, meditations, yoga categories, and recent activity.",
-        img: "../images/Balanced-case_16.png",
+        text: "The wireframes explored dashboard layouts, content organization, and quick access to key features such as workouts, meditations, and activity tracking.",
+                img: "../images/Balanced-case_16.png",
         alt: "Balanced wireframes"
       }
     ],
     designsolution: [
       {
-        text: "The design solution combines calming visual design with structured navigation systems that help users quickly access workouts, meditations, and progress tracking tools. Dashboard layouts prioritize clarity and ease of use while reinforcing wellness-focused interactions.",
-        img: "../images/Balanced-case_20.png",
+        text: "The design combines wellness content with clear navigation and progress tracking tools. The dashboard gives users quick access to routines while keeping the experience organized and approachable.",
+                img: "../images/Balanced-case_20.png",
         alt: "Balanced design solutions",
       }
     ],
     feature: [
       {
-        text: "Features include customizable workouts, categorized yoga routines, meditation libraries, achievement tracking, recent activity sections, and dashboard shortcuts for quickly resuming wellness routines.",
-        img: "../images/Balanced-case_20.png",
+        text: "Features include guided meditations, workout programs, yoga categories, achievement tracking, recent activity, and personalized dashboard shortcuts.",
+                img: "../images/Balanced-case_20.png",
         alt: "Balanced features",
       }
     ],
     audience: [
       {
-        text: "Balanced targets users interested in mindfulness, wellness, fitness, and sustainable self-improvement. The platform especially appeals to users looking for calm, supportive digital environments that encourage healthy routines without pressure.",
-        img: "../images/Balanced-case_24.png",
+        text: "Balanced is designed for people who want to create healthier routines through a mix of mindfulness, movement, and personal growth.",
+                img: "../images/Balanced-case_24.png",
         alt: "Balanced audience"
       }
     ],
     color_scheme: [
       {
-        text: "The color palette uses calming greens, soft neutrals, and muted tones to reinforce relaxation and balance throughout the interface. Accent colors help guide interaction without creating visual stress.",
-        img: "../images/Balanced-case_4.png",
+        text: "The color palette uses soft greens and neutral tones to create a calm and welcoming experience. Accent colors help guide attention without becoming distracting.",
+                img: "../images/Balanced-case_4.png",
         alt: "Balanced color palette"
       }
     ],
     logo: [
       {
-        text: "The Balanced logo uses soft typography and rounded forms to reinforce themes of calmness, mindfulness, and wellness while remaining adaptable across digital applications.",
-        img: "../images/Balanced-case_6.png",
+        text: "The logo uses soft forms and clean typography to reflect the app's focus on balance, wellness, and personal growth.",
+                img: "../images/Balanced-case_6.png",
         alt: "Balanced logo system"
       }
     ],
     typography: [
       {
-        text: "Typography selections prioritize readability and calm visual rhythm. Rounded sans-serif styles help reinforce approachability while maintaining clarity across dashboards and wellness content.",
-        img: "../images/Balanced-case_10.png",
+        text: "Typography was selected for readability and simplicity, helping wellness content feel approachable across different screens and features.",
+                img: "../images/Balanced-case_10.png",
         alt: "Balanced typography"
       }
     ],
     supporting_elements: [
       {
-        text: "Supporting elements include wellness-focused iconography, calming gradients, soft dividers, and achievement graphics that reinforce the platform’s wellness identity across all screens.",
-        img: "../images/Balanced-case_8.png",
+        text: "Supporting elements include wellness-focused icons, subtle gradients, and achievement graphics that help reinforce the overall experience.",
+                img: "../images/Balanced-case_8.png",
         alt: "Balanced supporting brand elements"
       }
     ]
@@ -596,20 +588,20 @@ const projects = {
   Dashboard: {
     title: "Dashboard",
     sub_title: "A structured analytics dashboard for visualizing user behavior",
-    paragraph: "Dashboard is a data visualization concept focused on presenting analytics, traffic metrics, and engagement data through a clean and organized interface.",
-    main_img: {
+    paragraph: "Dashboard is an analytics concept designed to help users understand traffic, engagement, and performance data through a clean and organized interface.",
+        main_img: {
       src: "../images/dashboard12.jpeg",
       alt: "Dashboard analytics interface"
     },
     role: "UX/UI Designer, Front-end Developer",
     deliverables: "Dashboard Design, Front-end Development",
     tools: "Figma, HTML, CSS, JavaScript",
-    overview: "Dashboard is an analytics interface concept designed to present large amounts of user and business data through a structured and visually organized system. The interface focuses on helping users quickly understand trends, engagement metrics, and user behavior without becoming overwhelmed by information.",
-    problem: "Analytics dashboards often become cluttered with excessive data, inconsistent hierarchy, and difficult navigation systems that make it hard for users to quickly identify meaningful insights.",
-    goal: "Design a clean analytics dashboard that improves readability, organizes complex data into digestible sections, and allows users to monitor engagement metrics efficiently.",
-    final_subtitle: "Final dashboard interface supporting data visualization",
-    final_paragraph: "The final dashboard organizes user analytics, engagement metrics, and performance statistics into structured sections that prioritize readability and fast interpretation. Through strong visual hierarchy and reusable widget systems, the interface helps users understand data trends while maintaining consistency across screens.",
-    small_images: [
+    overview: "Dashboard was designed to make complex data easier to understand. The interface organizes analytics, user activity, and performance metrics into clear sections so users can quickly identify trends and insights.",
+    problem: "Analytics platforms often present large amounts of information at once, making it difficult for users to find the data that matters most. Cluttered layouts can slow down decision-making and reduce usability.",
+    goal: "Design an analytics dashboard that presents data in a clear and organized way while helping users quickly understand key metrics and trends.",
+        final_subtitle: "Final dashboard interface supporting data visualization",
+        final_paragraph: "The final design organizes analytics into manageable sections using cards, charts, and reusable components. The result is a dashboard that feels structured, easy to navigate, and simple to scan.",
+            small_images: [
       {
         src: "../images/dashboard2.jpeg",
         alt: "Dashboard analytics graphs"
@@ -644,78 +636,78 @@ const projects = {
     ],
     research: [
       {
-        text: "Research explored how users interact with analytics dashboards and which layouts improve readability when displaying complex information. Competitive analysis showed that users value dashboards with strong hierarchy, clean spacing systems, and clearly separated widgets.",
-        img: "../images/Dashboard-case_4.png",
+        text: "Research focused on how users interact with analytics platforms and what helps them process information quickly. Existing dashboards were reviewed to identify common usability issues related to layout, hierarchy, and data organization.",
+                img: "../images/Dashboard-case_4.png",
         alt: "Dashboard research and analytics references"
       }
     ],
     personas: [
       {
-        text: "The dashboard was designed for users responsible for monitoring engagement metrics, traffic data, and user behavior. These users need fast access to important insights without navigating cluttered systems.",
-        img: "../images/Dashboard-case_2.png",
+        text: "The target audience includes users who regularly monitor traffic, engagement, and business performance data. They need quick access to information without spending time searching through complex interfaces.",
+                img: "../images/Dashboard-case_2.png",
         alt: "Dashboard persona"
       }
     ],
     userflows: [
       {
-        text: "The user flow focuses on navigating between analytics sections, engagement graphs, viewed page statistics, and settings areas while maintaining quick access to important metrics.",
-        img: "../images/Dashboard-case_8.png",
+        text: "The user flow focuses on moving between analytics sections, reviewing performance metrics, and accessing detailed data while keeping navigation straightforward.",
+                img: "../images/Dashboard-case_8.png",
         alt: "Dashboard user flow"
       }
     ],
     wireframes: [
       {
-        text: "Wireframes focused on organizing widgets, graphs, and engagement statistics into structured sections with clear visual hierarchy and reusable layout systems.",
-        img: "../images/dashboard-case-06.png",
+        text: "The wireframes explored different ways to organize charts, statistics, and navigation elements. The focus was on creating a layout that could present large amounts of information without feeling crowded.",
+                img: "../images/dashboard-case-06.png",
         alt: "Dashboard wireframes"
       }
     ],
     designsolution: [
       {
-        text: "The design solution organizes data into reusable widget sections that separate engagement metrics, graphs, viewed pages, and user behavior statistics into digestible visual groups.",
-        img: "../images/dashboard-case-13.png",
+        text: "The design uses reusable cards, charts, and content sections to organize information into clear visual groups. This helps users compare data and identify trends more efficiently.",
+                img: "../images/dashboard-case-13.png",
         alt: "Dashboard design solutions",
       }
     ],
     feature: [
       {
-        text: "Additional functionality includes adjustable date ranges, reusable metric widgets, user management navigation, and quick-access analytics summaries.",
-        img: "../images/dashboard-case-15.png",
+        text: "Features include customizable date ranges, analytics summaries, user management tools, and reusable dashboard widgets that support different types of reporting.",
+                img: "../images/dashboard-case-15.png",
         alt: "Dashboard analytics and interaction tools"
       }
     ],
     research_front: [
       {
-        text: "Front-end planning focused on reusable widget systems, responsive graph layouts, and structured spacing systems that maintain consistency throughout the dashboard.",
-        img: "../images/Dashboard-case_4.png",
+        text: "Front-end planning focused on building reusable dashboard components, responsive layouts, and consistent spacing systems that could support different types of data.",
+                img: "../images/Dashboard-case_4.png",
         alt: "Dashboard front-end planning"
       }
     ],
     planning: [
       {
-        text: "The layout structure was organized using reusable grid systems and analytics widgets that support scalability while maintaining consistent alignment across sections.",
-        img: "../images/dashboard-case-19.png",
+        text: "The layout was built around a flexible grid structure that allows widgets and charts to scale while maintaining visual consistency.",
+                img: "../images/dashboard-case-19.png",
         alt: "Dashboard layout planning"
       }
     ],
     semantic_layout: [
       {
-        text: "Semantic HTML structure separates navigation, analytics content, widget sections, and footer elements into clearly organized regions to improve accessibility and maintainability.",
-        img: "../images/dashboard-case-123.png",
+        text: "Semantic HTML elements were used to separate navigation, dashboard content, analytics sections, and supporting interface components.",
+                img: "../images/dashboard-case-123.png",
         alt: "Dashboard semantic layout"
       }
     ],
     consistency: [
       {
-        text: "Consistency was maintained through reusable cards, shared spacing systems, repeated graph styles, and unified widget layouts that reinforce hierarchy throughout the interface.",
-        img: "../images/dashboard-case.png",
+        text: "Consistency was maintained through reusable cards, shared spacing patterns, and standardized chart layouts across the dashboard.",
+                img: "../images/dashboard-case.png",
         alt: "Dashboard consistency systems"
       }
     ],
     responsive_design: [
       {
-        text: "The responsive system adapts analytics widgets and graph layouts across desktop, tablet, and mobile screens while preserving readability and spacing consistency.",
-        img: "../images/dashboard-case-23.png",
+        text: "The responsive design adapts charts, widgets, and navigation for desktop, tablet, and mobile devices while maintaining readability and usability.",
+                img: "../images/dashboard-case-23.png",
         alt: "Dashboard responsive layouts"
       }
     ]
@@ -723,20 +715,20 @@ const projects = {
   "Davena Farms": {
     title: "Davena Farms",
     sub_title: "A farm-to-table brand experience centered around freshness and authenticity",
-    paragraph: "Davena Farms is a farm-to-table concept designed to highlight fresh produce, local agriculture, and approachable food experiences through a clean visual identity.",
-    main_img: {
+    paragraph: "Davena Farms is a farm-to-table branding concept focused on fresh ingredients, local agriculture, and a welcoming visual identity.",
+        main_img: {
       src: "../images/davena-brand1.jpeg",
       alt: "Davena Farms branding and layouts"
     },
     role: "Brand Identity Designer",
     deliverables: "Branding, Packaging Design",
     tools: "Adobe Illustrator, Adobe Photoshop",
-    overview: "Davena Farms is a farm-to-table concept focused on creating an approachable and authentic visual identity inspired by local agriculture, fresh ingredients, and handcrafted food experiences.",
-    problem: "Many agricultural and farm-based brands rely on outdated visual systems that fail to communicate freshness, trust, and quality in modern digital and packaging environments.",
-    goal: "Create a clean and approachable farm-to-table identity system that highlights freshness, authenticity, and handcrafted quality.",
-    final_subtitle: "Final brand system inspired by local agriculture",
-    final_paragraph: "The final branding system combines rustic typography, earthy visuals, and packaging elements that reinforce freshness and authenticity while supporting both digital and physical applications.",
-    small_images: [
+    overview: "Davena Farms was created to explore how branding can communicate freshness, quality, and a connection to local food. The project focuses on building a visual identity that feels approachable, authentic, and rooted in agriculture.",
+    problem: "Many agricultural brands rely on outdated visuals that don't reflect the quality of their products or connect with modern audiences.",
+    goal: "Create a brand identity that highlights freshness, trust, and handcrafted quality while remaining flexible across packaging and promotional materials.",
+        final_subtitle: "Final brand system inspired by local agriculture",
+        final_paragraph: "The final identity combines natural colors, rustic typography, and simple supporting graphics to create a brand that feels fresh, approachable, and connected to local agriculture.",
+            small_images: [
       {
         src: "../images/davena2.jpeg",
         alt: "Davena Farms labels"
@@ -770,43 +762,43 @@ const projects = {
     ],
     research: [
       {
-        text: "Research focused on farm-to-table businesses, agricultural branding systems, and local food experiences that emphasize authenticity and freshness. Competitive analysis showed that consumers value brands that feel handcrafted, trustworthy, and connected to natural ingredients.",
-        img: "../images/Davena-case-142.png",
+        text: "Research explored farm-to-table businesses, farmers markets, and food brands that successfully communicate freshness and authenticity. The findings showed that customers are drawn to brands that feel genuine, local, and easy to trust.",
+                img: "../images/Davena-case-142.png",
         alt: "Davena Farms branding research"
       }
     ],
     audience: [
       {
-        text: "The brand targets customers interested in fresh produce, local agriculture, and handcrafted food experiences. These users value authenticity, sustainability, and approachable branding that reflects real farm-to-table values.",
-        img: "../images/davena6.jpeg",
+        text: "The target audience includes people who value fresh ingredients, local products, and businesses that emphasize quality and transparency.",
+                img: "../images/davena6.jpeg",
         alt: "Davena Farms target audience"
       }
     ],
     color_scheme: [
       {
-        text: "The color palette uses earthy neutrals, warm greens, and natural tones inspired by agriculture and fresh ingredients. These colors reinforce calmness, authenticity, and organic quality throughout the brand system.",
-        img: "../images/Davena-case_4.png",
+        text: "The color palette draws inspiration from farmland, produce, and natural materials. Earthy greens and warm neutrals help reinforce the brand's connection to fresh, locally grown food.",
+                img: "../images/Davena-case_4.png",
         alt: "Davena Farms color palette"
       }
     ],
     logo: [
       {
-        text: "The Davena Farms logo combines rustic typography with simple handcrafted styling to create a visual identity that feels approachable, local, and authentic across packaging and digital applications.",
-        img: "../images/Davena-case_6.png",
+        text: "The logo combines rustic styling with a clean, approachable look. It was designed to feel welcoming while remaining versatile across packaging, signage, and digital applications.",
+                img: "../images/Davena-case_6.png",
         alt: "Davena Farms logo system"
       }
     ],
     typography: [
       {
-        text: "Typography selections focus on rustic serif styles paired with clean supporting text to reinforce handcrafted quality while maintaining readability across labels and packaging systems.",
-        img: "../images/Davena-case_10.png",
+        text: "Typography pairs a rustic display style with clean supporting text to create a balance between personality and readability.",
+                img: "../images/Davena-case_10.png",
         alt: "Davena Farms typography"
       }
     ],
     supporting_elements: [
       {
-        text: "Supporting brand elements include packaging labels, organic dividers, texture overlays, and simple illustrations inspired by agriculture and handcrafted food experiences.",
-        img: "../images/Davena-case_8.png",
+        text: "Supporting elements include packaging graphics, simple illustrations, and organic textures that help reinforce the farm-to-table identity without overwhelming the brand.",
+                img: "../images/Davena-case_8.png",
         alt: "Davena Farms supporting elements"
       }
     ]
@@ -815,20 +807,20 @@ const projects = {
   Infinite: {
     title: "Infinite",
     sub_title: "A creative agency concept focused on modern visual presentation",
-    paragraph: "Infinite is a creative agency concept designed to showcase digital projects, branding work, and portfolio experiences through structured layouts and modern visuals.",
-    main_img: {
+    paragraph: "Infinite is a creative agency concept designed to showcase digital work, branding projects, and portfolio pieces through a clean and organized website.",
+        main_img: {
       src: "../images/infinite-website4.jpeg",
       alt: "Infinite agency layouts"
     },
     role: "UX/UI Designer, Brand Identity Designer",
     deliverables: "Portfolio Website Design, Branding",
     tools: "Figma, Adobe Photoshop",
-    overview: "Infinite is a creative agency concept designed to present branding, digital work, and portfolio projects through clean layouts and modern visual systems.",
-    problem: "Many creative agency websites become visually overwhelming or inconsistent, making it difficult for users to focus on the work itself.",
-    goal: "Create a modern creative agency experience that highlights portfolio work through structured layouts and clean visual hierarchy.",
-    final_subtitle: "Final agency experience focused on showcasing creative work",
-    final_paragraph: "The final concept uses structured layouts, clean typography, and strong spacing systems to highlight projects while maintaining a modern and visually engaging presentation.",
-    small_images: [
+    overview: "Infinite explores how an agency can present its work in a way that feels professional without overwhelming visitors. The project focuses on creating a website that highlights projects, supports easy navigation, and keeps the work at the center of the experience.",
+    problem: "Many agency websites rely on complex animations and crowded layouts that can distract from the work they're meant to showcase.",
+    goal: "Design a portfolio experience that presents creative work clearly while maintaining a strong visual identity.",
+        final_subtitle: "Final agency experience focused on showcasing creative work",
+        final_paragraph: "The final design uses clean layouts, thoughtful spacing, and a simple navigation system to keep attention on the work while creating a polished browsing experience.",
+            small_images: [
       {
         src: "../images/infinite2.jpeg",
         alt: "Infinite layouts"
@@ -862,20 +854,20 @@ const projects = {
   "SHR Construction": {
     title: "SHR Construction",
     sub_title: "A contractor website focused on professionalism and trust",
-    paragraph: "SHR Construction is a contractor website concept designed to clearly present services, projects, and contact information through strong structure and approachable branding.",
-    main_img: {
+    paragraph: "SHR Construction is a website concept designed to help homeowners learn about services, view completed projects, and easily contact the company.",
+        main_img: {
       src: "../images/shr2.jpeg",
       alt: "SHR Construction website"
     },
     role: "UX/UI Designer, Brand Identity Designer, Front-end Developer",
     deliverables: "Website Design, Branding, Front-end Development",
     tools: "Figma, HTML, CSS",
-    overview: "SHR Construction is a contractor website concept focused on helping homeowners quickly understand available services and connect with trusted professionals.",
-    problem: "Construction websites are often outdated, cluttered, or difficult to navigate, which reduces trust and makes service information harder to access.",
-    goal: "Create a contractor website that communicates professionalism, trust, and clarity while simplifying service discovery and customer contact.",
-    final_subtitle: "Final contractor website supporting clarity and trust",
-    final_paragraph: "The final concept combines structured layouts, strong typography, and approachable branding to help customers quickly understand available services while reinforcing professionalism.",
-    small_images: [
+    overview: "SHR Construction was created to explore how a contractor's website can build trust through clear communication and simple navigation. The project focuses on helping visitors quickly find information about services, past work, and contact options.",
+    problem: "Many construction websites feel outdated or difficult to navigate, making it harder for potential clients to find information and take the next step.",
+    goal: "Design a website that clearly presents services, showcases completed work, and makes it easy for customers to get in touch.",
+        final_subtitle: "Final contractor website supporting clarity and trust",
+        final_paragraph: "The final design uses straightforward navigation, strong imagery, and clear calls to action to help visitors understand the company's services and contact the business with confidence.",
+            small_images: [
       {
         src: "../images/shr2.jpeg",
         alt: "SHR homepage"
@@ -908,20 +900,20 @@ const projects = {
   "Paradigm Solutions": {
     title: "Paradigm Solutions",
     sub_title: "A corporate identity focused on professionalism and structure",
-    paragraph: "Paradigm Solutions is a business-focused branding concept designed to communicate professionalism, reliability, and modern corporate structure through clean layouts and visual consistency.",
-    main_img: {
+    paragraph: "Paradigm Solutions is a corporate branding concept designed to create a clear and consistent identity for a business-focused audience.",
+        main_img: {
       src: "../images/paradigm11.jpeg",
       alt: "Paradigm Solutions branding"
     },
     role: "Brand Identity Designer",
     deliverables: "Branding System",
     tools: "Adobe Illustrator, Adobe Photoshop",
-    overview: "Paradigm Solutions is a corporate branding concept designed to support modern business communication through structured visual systems, professional layouts, and consistent brand presentation.",
-    problem: "Many corporate brands rely on generic visual systems that fail to create recognition or communicate trust effectively across digital and print applications.",
-    goal: "Create a modern corporate identity system that communicates professionalism, clarity, and reliability through structured branding elements.",
-    final_subtitle: "Final corporate identity focused on professionalism",
-    final_paragraph: "The final branding system combines structured typography, professional color systems, and clean layouts to create a modern corporate identity that supports trust and recognition across multiple applications.",
-    small_images: [
+    overview: "Paradigm Solutions explores how branding can help a company communicate its values clearly across both digital and print materials. The project focuses on creating a polished identity that feels confident, organized, and easy to recognize.",
+    problem: "Many corporate brands rely on generic visuals that make it difficult to stand out or create a lasting impression.",
+    goal: "Create a cohesive brand identity that helps the company present itself clearly and consistently across a variety of applications.",
+        final_subtitle: "Final corporate identity focused on professionalism",
+        final_paragraph: "The final brand combines clean typography, a focused color palette, and consistent visual elements to create an identity that feels polished and recognizable.",
+            small_images: [
       {
         src: "../images/paradigm2.jpeg",
         alt: "Paradigm Solutions branding layouts"
@@ -955,43 +947,43 @@ const projects = {
     ],
     research: [
       {
-        text: "Research focused on corporate branding systems and modern business identity design. Competitive analysis showed that users associate strong typography, minimal layouts, and structured visual systems with trust and professionalism.",
-        img: "../images/Paradigm-case_2.png",
+        text: "Research focused on business branding, corporate communication, and visual identity systems. The findings highlighted the importance of clarity, consistency, and strong visual recognition across different touchpoints.",
+                img: "../images/Paradigm-case_2.png",
         alt: "Paradigm Solutions branding research"
       }
     ],
     audience: [
       {
-        text: "The brand targets business clients and organizations looking for professional and dependable service experiences supported by clear communication and modern presentation.",
-        img: "../images/Paradigm-case_12.png",
+        text: "The target audience includes businesses and organizations looking for dependable services and clear communication.",
+                img: "../images/Paradigm-case_12.png",
         alt: "Paradigm Solutions audience"
       }
     ],
     color_scheme: [
       {
-        text: "The color palette combines dark neutrals with structured accent tones to reinforce professionalism, reliability, and visual clarity across corporate applications.",
-        img: "../images/Paradigm-case_4.png",
+        text: "The color palette uses dark neutrals paired with accent colors to create contrast, improve readability, and support a clean visual style.",
+                img: "../images/Paradigm-case_4.png",
         alt: "Paradigm Solutions color palette"
       }
     ],
     logo: [
       {
-        text: "The Paradigm Solutions logo uses structured geometric forms and clean typography to reinforce professionalism and consistency across digital and print environments.",
-        img: "../images/Paradigm-case_8.png",
+        text: "The logo combines simple geometric forms with clean typography to create a mark that is easy to recognize and adaptable across different applications.",
+                img: "../images/Paradigm-case_8.png",
         alt: "Paradigm Solutions logo"
       }
     ],
     typography: [
       {
-        text: "Typography selections focus on modern sans-serif systems that prioritize readability and structured hierarchy while maintaining a professional tone throughout the brand.",
-        img: "../images/Paradigm-case_10.png",
+        text: "Typography was chosen for clarity and flexibility, helping maintain a consistent visual hierarchy across both print and digital materials.",
+                img: "../images/Paradigm-case_10.png",
         alt: "Paradigm Solutions typography"
       }
     ],
     supporting_elements: [
       {
-        text: "Supporting elements include structured grids, clean dividers, and subtle geometric graphics that reinforce professionalism without distracting from content.",
-        img: "../images/Paradigm-case_8.png",
+        text: "Supporting elements include grid-based layouts, subtle graphic accents, and consistent spacing patterns that help unify the overall brand.",
+                img: "../images/Paradigm-case_8.png",
         alt: "Paradigm Solutions supporting elements"
       }
     ]
@@ -1000,20 +992,20 @@ const projects = {
   "Simply Green": {
     title: "Simply Green",
     sub_title: "An eco-conscious brand focused on sustainability and simplicity",
-    paragraph: "Simply Green is a sustainability-focused concept designed to communicate environmentally conscious values through clean visuals and approachable design systems.",
-    main_img: {
+    paragraph: "Simply Green is a sustainability-focused concept designed to promote environmentally conscious products through clear, approachable design.",
+        main_img: {
       src: "../images/simply-green11.jpeg",
       alt: "Simply Green branding"
     },
     role: "UX/UI Designer, Brand Identity Designer, Front-end Developer",
     deliverables: "Branding, Website Design, Front-end Development",
     tools: "Figma, HTML, CSS, Adobe Illustrator",
-    overview: "Simply Green is an eco-conscious concept focused on promoting sustainable products and environmental awareness through approachable design and structured educational content.",
-    problem: "Many sustainability brands struggle to balance education, branding, and product presentation without overwhelming users or appearing visually cluttered.",
-    goal: "Create a clean sustainability-focused experience that communicates environmental awareness through approachable branding and organized content systems.",
-    final_subtitle: "Final sustainability experience focused on clarity and education",
-    final_paragraph: "The final concept combines sustainability-focused visuals with structured layouts and educational content systems that help users engage with environmentally conscious products and ideas.",
-    small_images: [
+    overview: "Simply Green explores how design can make sustainability feel more accessible. The project combines branding and web design to present products, information, and environmental topics in a way that's easy to understand and navigate.",
+    problem: "Many sustainability-focused brands present large amounts of information at once, making it difficult for users to quickly understand products or engage with the content.",
+    goal: "Create a website and brand identity that communicate sustainability in a way that feels simple, approachable, and informative.",
+        final_subtitle: "Final sustainability experience focused on clarity and education",
+        final_paragraph: "The final design combines educational content, product information, and a clean visual style to create an experience that feels welcoming and easy to explore.",
+            small_images: [
       {
         src: "../images/simply-green2.jpeg",
         alt: "Simply Green layouts"
@@ -1047,20 +1039,20 @@ const projects = {
   Roots: {
     title: "Roots",
     sub_title: "A farm-to-table food truck identity inspired by freshness and community",
-    paragraph: "Roots is a farm-to-table food truck concept focused on fresh ingredients, local agriculture, and approachable branding inspired by handcrafted food experiences.",
-    main_img: {
+    paragraph: "Roots is a farm-to-table food truck concept built around fresh ingredients, local sourcing, and a welcoming brand identity.",
+        main_img: {
       src: "../images/roots11.jpeg",
       alt: "Roots food truck branding"
     },
     role: "Brand Identity Designer",
     deliverables: "Branding System",
     tools: "Adobe Illustrator, Adobe Photoshop",
-    overview: "Roots is a farm-to-table food truck concept focused on creating an authentic visual identity inspired by local ingredients, handcrafted food, and community-focused experiences.",
-    problem: "Many food truck brands rely on inconsistent visuals that fail to communicate freshness, quality, and personality in crowded public environments.",
-    goal: "Create a welcoming and recognizable farm-to-table identity system that highlights freshness, handcrafted quality, and local food culture.",
-    final_subtitle: "Final food truck identity inspired by local ingredients",
-    final_paragraph: "The final identity combines rustic visuals, approachable typography, and earthy tones to create a food truck experience that feels fresh, handcrafted, and community-focused.",
-    small_images: [
+    overview: "Roots was created to capture the experience of a community-focused food truck that values fresh ingredients and locally sourced food. The project explores how branding can help a small business feel approachable, memorable, and connected to its audience.",
+    problem: "Food trucks often compete in crowded environments where customers make quick decisions. Without a strong visual identity, it can be difficult to stand out and build recognition.",
+    goal: "Create a brand identity that reflects freshness, quality, and community while helping the business stand out in a busy food truck environment.",
+        final_subtitle: "Final food truck identity inspired by local ingredients",
+        final_paragraph: "The final brand combines natural colors, handcrafted details, and approachable typography to create a food truck identity that feels friendly, fresh, and easy to recognize.",
+            small_images: [
       {
         src: "../images/roots2.jpeg",
         alt: "Roots logo applications"
@@ -1094,43 +1086,43 @@ const projects = {
     ],
     research: [
       {
-        text: "Research explored farm-to-table restaurants, local agriculture branding, and handcrafted food experiences. Consumers consistently associated earthy visuals and approachable branding with authenticity and freshness.",
-        img: "../images/roots-case_2.png",
+        text: "Research focused on food trucks, farm-to-table restaurants, and local food brands. Many successful businesses used simple, approachable branding that helped communicate quality and create a stronger connection with customers.",
+                img: "../images/roots-case_2.png",
         alt: "Roots branding research"
       }
     ],
     audience: [
       {
-        text: "The target audience includes customers interested in local ingredients, fresh food, and sustainable dining experiences that feel approachable and community-focused.",
-        img: "../images/roots-case_12.png",
+        text: "The target audience includes people who enjoy fresh food, local ingredients, and businesses that support their communities.",
+                img: "../images/roots-case_12.png",
         alt: "Roots audience"
       }
     ],
     color_scheme: [
       {
-        text: "The palette uses warm earthy tones, muted greens, and natural neutrals inspired by agriculture, vegetables, and outdoor food experiences.",
-        img: "../images/roots-case_4.png",
+        text: "The color palette is inspired by natural ingredients, farmland, and fresh produce. Warm earth tones and muted greens help create a welcoming and organic feel.",
+                img: "../images/roots-case_4.png",
         alt: "Roots color palette"
       }
     ],
     logo: [
       {
-        text: "The Roots logo combines handcrafted typography and organic forms to create an approachable visual identity inspired by local food culture and freshness.",
-        img: "../images/roots-case_6.png",
+        text: "The logo combines handcrafted styling with simple shapes to create a look that feels approachable, authentic, and easy to recognize.",
+                img: "../images/roots-case_6.png",
         alt: "Roots logo"
       }
     ],
     typography: [
       {
-        text: "Typography selections focus on rustic serif styles paired with clean supporting text to reinforce handcrafted authenticity while maintaining readability.",
-        img: "../images/roots-case_10.png",
+        text: "Typography was chosen to balance personality and readability, giving the brand a handcrafted feel while remaining clear across signage, menus, and packaging.",
+                img: "../images/roots-case_10.png",
         alt: "Roots typography"
       }
     ],
     supporting_elements: [
       {
-        text: "Supporting visuals include organic dividers, textured graphics, and produce-inspired illustrations that reinforce the handcrafted and community-driven brand identity.",
-        img: "../images/roots-case_8.png",
+        text: "Supporting graphics include organic textures, illustrated details, and simple visual elements inspired by fresh ingredients and local food culture.",
+                img: "../images/roots-case_8.png",
         alt: "Roots supporting elements"
       }
     ]
@@ -1138,20 +1130,20 @@ const projects = {
   Sunshine: {
     title: "Sunshine",
     sub_title: "An eco-friendly café identity inspired by warmth and sustainability",
-    paragraph: "Sunshine is an eco-conscious café concept focused on reusable packaging, approachable visuals, and a welcoming atmosphere inspired by community coffee culture.",
-    main_img: {
+    paragraph: "Sunshine is a café branding concept inspired by community, sustainability, and the welcoming atmosphere of a neighborhood coffee shop.",
+        main_img: {
       src: "../images/sunshine10.jpeg",
       alt: "Sunshine café branding"
     },
     role: "Brand Identity Designer",
     deliverables: "Branding System",
     tools: "Adobe Illustrator, Adobe Photoshop",
-    overview: "Sunshine is a sustainable café concept designed to create a warm and welcoming coffee experience centered around reusable packaging, handcrafted presentation, and environmentally conscious branding.",
-    problem: "Many cafés promote sustainability but fail to visually communicate those values in a consistent and approachable way across branding and packaging systems.",
-    goal: "Create an eco-friendly café identity that feels warm, approachable, and community-focused while reinforcing sustainability through visual design.",
-    final_subtitle: "Final café identity focused on warmth and sustainability",
-    final_paragraph: "The final branding system combines warm visuals, natural textures, and reusable packaging concepts to create a café experience that feels inviting, sustainable, and community-driven.",
-    small_images: [
+    overview: "Sunshine was created to explore how branding can reflect both sustainability and a sense of community. The project focuses on building a café identity that feels warm, approachable, and memorable across packaging and promotional materials.",
+    problem: "Many cafés promote sustainable practices, but their branding often fails to communicate those values in a way that feels genuine and approachable.",
+    goal: "Create a café brand that highlights sustainability while maintaining a warm and welcoming personality.",
+        final_subtitle: "Final café identity focused on warmth and sustainability",
+        final_paragraph: "The final brand combines natural colors, friendly typography, and packaging concepts that reflect the café's focus on community, sustainability, and everyday comfort.",
+            small_images: [
       {
         src: "../images/sunshine2.jpeg",
         alt: "Sunshine packaging"
@@ -1185,43 +1177,43 @@ const projects = {
     ],
     research: [
       {
-        text: "Research explored sustainable café branding, eco-conscious packaging systems, and modern coffee shop experiences focused on community and environmental responsibility. Users responded positively to brands that felt approachable, warm, and authentic rather than overly corporate.",
-        img: "../images/Sunshine-case_2.png",
+        text: "Research explored café branding, sustainable packaging, and community-focused coffee shops. Brands that felt authentic and approachable were often more memorable than those that relied heavily on environmental messaging alone.",
+                img: "../images/Sunshine-case_2.png",
         alt: "Sunshine café branding research"
       }
     ],
     audience: [
       {
-        text: "The target audience includes environmentally conscious coffee drinkers who value sustainability, reusable products, handcrafted presentation, and welcoming community spaces.",
-        img: "../images/Sunshine-case_12.png",
+        text: "The target audience includes coffee lovers who value sustainability, reusable products, and welcoming spaces that feel connected to their community.",
+                img: "../images/Sunshine-case_12.png",
         alt: "Sunshine audience"
       }
     ],
     color_scheme: [
       {
-        text: "The palette combines warm yellows, earthy neutrals, soft browns, and muted greens inspired by sunlight, natural materials, and organic café environments.",
-        img: "../images/Sunshine-case_4.png",
+        text: "The color palette draws inspiration from sunlight, natural materials, and café interiors. Warm yellows, soft browns, and muted greens help create a welcoming atmosphere.",
+                img: "../images/Sunshine-case_4.png",
         alt: "Sunshine color palette"
       }
     ],
     logo: [
       {
-        text: "The Sunshine logo combines rounded typography with soft organic shapes inspired by warmth, positivity, and community-focused café culture. The visual identity was designed to feel welcoming and approachable while reinforcing the brand’s focus on sustainability, reusable packaging, and handcrafted experiences. Its simple structure allows the logo to remain flexible across packaging, signage, social media, and digital applications while maintaining strong brand recognition.",
-        img: "../images/Sunshine-case_6.png",
+        text: "The logo combines rounded typography with simple organic shapes to create a friendly and recognizable identity. Its flexible design works across packaging, signage, and digital applications.",
+                img: "../images/Sunshine-case_6.png",
         alt: "Sunshine logo"
       }
     ],
     typography: [
       {
-        text: "Typography selections focus on approachable rounded styles paired with clean supporting text to reinforce friendliness and readability across packaging and signage systems.",
-        img: "../images/Sunshine-case_10.png",
+        text: "Typography was selected to feel approachable and easy to read while supporting the café's warm and relaxed personality.",
+                img: "../images/Sunshine-case_10.png",
         alt: "Sunshine typography"
       }
     ],
     supporting_elements: [
       {
-        text: "Supporting visuals include reusable mason jar graphics, hand-drawn illustrations, textured backgrounds, and natural dividers inspired by sustainable café culture.",
-        img: "../images/Sunshine-case_8.png",
+        text: "Supporting graphics include hand-drawn illustrations, reusable packaging visuals, and natural textures that add personality while reinforcing the brand's focus on sustainability.",
+                img: "../images/Sunshine-case_8.png",
         alt: "Sunshine supporting elements"
       }
     ]
@@ -1230,20 +1222,20 @@ const projects = {
   "AIGA DEC": {
     title: "AIGA DEC",
     sub_title: "An event branding system focused on structure and visual engagement",
-    paragraph: "AIGA DEC is an event branding concept designed to support design-focused experiences through modern layouts, strong typography, and organized visual systems.",
-    main_img: {
+    paragraph: "AIGA DEC is an event branding concept created to promote a design-focused experience through bold visuals, strong typography, and engaging layouts.",
+        main_img: {
       src: "../images/aiga13.jpeg",
       alt: "AIGA DEC branding"
     },
     role: "Brand Identity Designer",
     deliverables: "Event Branding",
     tools: "Adobe Illustrator, Adobe Photoshop",
-    overview: "AIGA DEC is a design-focused event branding concept created to support professional networking, creative collaboration, and visual engagement through structured branding systems.",
-    problem: "Many event branding systems struggle to balance professionalism with creativity, often becoming visually cluttered or inconsistent across applications.",
-    goal: "Create a modern event branding system that communicates creativity and professionalism through structured visual design.",
-    final_subtitle: "Final event identity focused on structure and engagement",
-    final_paragraph: "The final branding system combines bold typography, structured layouts, and modern visual hierarchy to create an event experience that feels both professional and creatively engaging.",
-    small_images: [
+    overview: "AIGA DEC explores how branding can help create excitement around a design event. The project focuses on building a visual identity that feels creative, organized, and flexible enough to work across a variety of event materials.",
+    problem: "Event branding often struggles to balance creativity and clarity. Visual systems can become overly complex, making information harder to navigate and reducing the impact of the overall experience.",
+    goal: "Create an event identity that captures attention, communicates information clearly, and reflects the energy of the design community.",
+        final_subtitle: "Final event identity focused on structure and engagement",
+        final_paragraph: "The final branding combines bold typography, strong visual hierarchy, and flexible layouts to create an event identity that feels engaging, organized, and memorable.",
+            small_images: [
       {
         src: "../images/aiga2.jpeg",
         alt: "AIGA DEC layouts"
@@ -1277,43 +1269,43 @@ const projects = {
     ],
     research: [
       {
-        text: "Research explored creative conference branding systems and design-focused event experiences. Strong typography and structured layouts consistently reinforced professionalism while still supporting creative energy.",
-        img: "../images/AIGA1-case_2.png",
+        text: "Research explored design conferences, creative events, and promotional materials used to attract attendees. The findings showed that strong typography and clear visual organization play a major role in creating recognizable event experiences.",
+                img: "../images/AIGA1-case_2.png",
         alt: "AIGA DEC branding research"
       }
     ],
     audience: [
       {
-        text: "The audience includes designers, students, and creative professionals interested in networking, collaboration, and attending visually engaging design events.",
-        img: "../images/AIGA1-case_12.png",
+        text: "The audience includes designers, students, and creative professionals interested in networking, learning, and connecting with others in the design community.",
+                img: "../images/AIGA1-case_12.png",
         alt: "AIGA DEC audience"
       }
     ],
     color_scheme: [
       {
-        text: "The palette combines bold contrast with modern accent colors to reinforce visual energy while maintaining readability and professional structure.",
-        img: "../images/AIGA1-case_4.png",
+        text: "The color palette uses high contrast and bold accent colors to create visual energy while maintaining readability across event materials.",
+                img: "../images/AIGA1-case_4.png",
         alt: "AIGA DEC color palette"
       }
     ],
     logo: [
       {
-        text: "The logo system uses clean typography and structured geometric alignment to create a recognizable event identity adaptable across print and digital applications.",
-        img: "../images/AIGA1-case_6.png",
+        text: "The logo was designed to be simple, adaptable, and easy to recognize across posters, social media, event signage, and printed materials.",
+                img: "../images/AIGA1-case_6.png",
         alt: "AIGA DEC logo"
       }
     ],
     typography: [
       {
-        text: "Typography selections focus on bold hierarchy and modern sans-serif styles that reinforce readability while supporting a visually engaging event atmosphere.",
-        img: "../images/AIGA1-case_10.png",
+        text: "Typography plays a central role in the identity, helping establish hierarchy while adding personality and visual impact throughout the design system.",
+                img: "../images/AIGA1-case_10.png",
         alt: "AIGA DEC typography"
       }
     ],
     supporting_elements: [
       {
-        text: "Supporting elements include structured grid systems, abstract graphics, and layered visual compositions that reinforce the creative identity of the event.",
-        img: "../images/AIGA1-case_8.png",
+        text: "Supporting graphics include abstract shapes, layered compositions, and grid-based layouts that add visual interest while keeping information organized.",
+                img: "../images/AIGA1-case_8.png",
         alt: "AIGA DEC supporting elements"
       }
     ],
@@ -1322,20 +1314,20 @@ const projects = {
   "Tamed Magazine": {
   title: "Tamed Magazine",
   sub_title: "An editorial concept focused on modern typography and layout",
-  paragraph: "Tamed Magazine is an editorial branding concept designed around strong typography, structured layouts, and modern visual storytelling.",
-  main_img: {
+  paragraph: "Tamed Magazine is an editorial design concept focused on typography, layout, and visual storytelling.",
+    main_img: {
     src: "../images/tamed4.jpeg",
     alt: "Tamed Magazine layouts"
   },
   role: "Brand Identity Designer",
   deliverables: "Editorial Branding",
   tools: "Adobe InDesign, Adobe Photoshop",
-  overview: "Tamed Magazine is an editorial design concept focused on combining modern typography, structured layouts, and visual storytelling into a cohesive publication system.",
-  problem: "Many editorial layouts become visually inconsistent or overly cluttered, reducing readability and weakening the connection between content and design.",
-  goal: "Create a modern editorial identity system that supports readability while maintaining strong visual personality and hierarchy.",
-  final_subtitle: "Final editorial system focused on typography and structure",
-  final_paragraph: "The final editorial system combines bold typography, structured grid layouts, and clean visual hierarchy to support modern storytelling and readability across magazine spreads.",
-  small_images: [
+  overview: "Tamed Magazine explores how typography and layout can work together to create engaging editorial content. The project focuses on building a publication that feels modern, organized, and easy to read.",
+  problem: "Editorial layouts can become cluttered when typography, imagery, and content compete for attention. Maintaining readability while creating visual interest is a common challenge.",
+  goal: "Create a magazine design that balances strong visual storytelling with clear organization and readability.",
+    final_subtitle: "Final editorial system focused on typography and structure",
+    final_paragraph: "The final design uses bold typography, structured grids, and thoughtful spacing to create layouts that feel both engaging and easy to navigate.",
+      small_images: [
     {
       src: "../images/tamed2.jpeg",
       alt: "Tamed Magazine spreads"
@@ -1369,20 +1361,20 @@ const projects = {
 "Target Brochure": {
   title: "Target Brochure",
   sub_title: "A retail brochure concept inspired by modern product marketing",
-  paragraph: "Target Brochure is a retail marketing concept focused on structured layouts, bold visuals, and organized product presentation.",
-  main_img: {
+  paragraph: "Target Brochure is a retail design concept focused on organizing products, promotions, and information through clean layouts and strong visual hierarchy.",
+    main_img: {
     src: "../images/target6.jpeg",
     alt: "Target brochure layouts"
   },
   role: "Brand Identity Designer",
   deliverables: "Retail Brochure Design",
   tools: "Adobe InDesign, Adobe Photoshop",
-  overview: "Target Brochure is a retail marketing concept focused on organizing product information through clean layouts, strong hierarchy, and modern retail-inspired visuals.",
-  problem: "Retail brochures often become overcrowded with information, making it difficult for users to quickly scan products and promotions.",
-  goal: "Create a modern retail brochure system that supports fast product discovery and organized promotional layouts.",
-  final_subtitle: "Final brochure system focused on retail clarity",
-  final_paragraph: "The final brochure concept combines structured grids, strong hierarchy, and bold visuals to support quick scanning and organized product presentation.",
-  small_images: [
+  overview: "This project explores how brochure design can make product information easier to browse and understand. The focus was on creating layouts that feel organized, visually engaging, and easy to scan.",
+  problem: "Retail brochures often contain a large amount of information, making it difficult for customers to quickly find products, pricing, and promotions.",
+  goal: "Create a brochure design that presents products clearly while maintaining a visually engaging layout.",
+    final_subtitle: "Final brochure system focused on retail clarity",
+    final_paragraph: "The final design uses a structured grid system, bold imagery, and clear typography to help readers quickly browse products and promotions.",
+      small_images: [
     {
       src: "../images/target2.jpeg",
       alt: "Target brochure layouts"
@@ -1415,21 +1407,21 @@ const projects = {
 
 "Night Life": {
   title: "Night Life",
-  sub_title: "An event concept inspired by nightlife and entertainment culture",
-  paragraph: "Night Life is an entertainment-focused concept designed around bold typography, dark visuals, and high-energy layouts inspired by nightlife experiences.",
-  main_img: {
+  sub_title: "A digital experience inspired by live events and nightlife culture",
+    paragraph: "Night Life is an event and entertainment concept inspired by nightlife culture, live music, and social experiences.",
+    main_img: {
     src: "../images/night-life1.jpeg",
     alt: "Night Life branding"
   },
   role: "Brand Identity Designer, Front-end Developer",
   deliverables: "Branding, Front-end Development",
   tools: "Figma, HTML, CSS",
-  overview: "Night Life is an entertainment concept inspired by nightlife culture, live events, and high-energy visual systems designed for promotional experiences.",
-  problem: "Entertainment-focused websites and promotional systems often become visually chaotic, reducing readability and making navigation difficult.",
-  goal: "Create a visually engaging nightlife experience that balances high-energy visuals with organized layouts and readability.",
-  final_subtitle: "Final nightlife experience focused on energy and structure",
-  final_paragraph: "The final concept combines bold typography, neon-inspired visuals, and structured layouts to create a nightlife experience that feels energetic while remaining organized and usable.",
-  small_images: [
+  overview: "Night Life explores how design can capture the energy of nightlife while keeping information easy to navigate. The project focuses on creating a bold visual experience that promotes events, venues, and entertainment in a clear and engaging way.",
+  problem: "Entertainment websites often prioritize visual effects over usability, making it difficult for users to quickly find event information or navigate the site.",
+  goal: "Create a high-energy digital experience that balances bold visuals with clear organization and easy navigation.",
+    final_subtitle: "Final nightlife experience focused on energy and structure",
+    final_paragraph: "The final design combines vibrant visuals, strong typography, and structured layouts to create an experience that feels energetic without sacrificing usability.",
+      small_images: [
     {
       src: "../images/night-life2.jpeg",
       alt: "Night Life layouts"
@@ -1463,20 +1455,20 @@ const projects = {
 "Better World with Design": {
   title: "Better World with Design",
   sub_title: "A nonprofit concept focused on accessibility and communication",
-  paragraph: "Better World with Design is a nonprofit-focused branding concept centered around accessibility, communication, and socially driven visual systems.",
-  main_img: {
+  paragraph: "Better World with Design is a nonprofit branding concept focused on accessibility, communication, and creating positive social impact through design.",
+    main_img: {
     src: "../images/better-world7.jpeg",
     alt: "Better World with Design branding"
   },
   role: "Brand Identity Designer",
   deliverables: "Branding System",
   tools: "Adobe Illustrator, Adobe Photoshop",
-  overview: "Better World with Design is a nonprofit branding concept focused on communicating accessibility, empathy, and social impact through structured visual systems.",
-  problem: "Nonprofit branding systems often struggle to balance professionalism with emotional communication and accessibility.",
-  goal: "Create a nonprofit identity system that feels approachable, accessible, and socially focused while maintaining clarity and professionalism.",
+  overview: "This project explores how thoughtful design can help organizations communicate their mission more effectively. The goal was to create a visual identity that feels welcoming, accessible, and easy to understand.",
+  problem: "Many nonprofit organizations need to communicate complex issues while remaining approachable and accessible to a wide audience.",
+    goal: "Create a nonprofit identity system that feels approachable, accessible, and socially focused while maintaining clarity and professionalism.",
   final_subtitle: "Final nonprofit identity focused on accessibility",
-  final_paragraph: "The final concept combines approachable visuals, accessible typography, and clean layouts to create a nonprofit identity system centered around communication and inclusivity.",
-  small_images: [
+  final_paragraph: "The final design combines approachable visuals, clear typography, and thoughtful layouts to create a brand that feels inclusive, welcoming, and easy to navigate.",
+    small_images: [
     {
       src: "../images/better-worlds2.jpeg",
       alt: "Better World layouts"
@@ -1509,20 +1501,20 @@ const projects = {
 "Font Cards": {
   title: "Font Cards",
   sub_title: "A typography learning system designed for student designers",
-  paragraph: "Font Cards is a typography-focused concept designed to help student designers learn hierarchy, pairing systems, and visual organization through collectible educational layouts.",
-  main_img: {
+  paragraph: "Font Cards is a typography learning project designed to help students understand typefaces, hierarchy, and font pairings through a collection of educational cards.",
+    main_img: {
     src: "../images/font-cards6.jpeg",
     alt: "Font Cards typography system"
   },
   role: "Brand Identity Designer",
   deliverables: "Typography System",
   tools: "Adobe Illustrator, Adobe Photoshop",
-  overview: "Font Cards is a typography learning concept designed to help designers better understand font hierarchy, pairing systems, readability, and visual organization through structured educational layouts.",
-  problem: "Typography education can often feel abstract and difficult to visualize, especially for newer designers learning hierarchy and font relationships.",
-  goal: "Create an approachable typography learning system that helps student designers understand hierarchy, pairing, and visual structure through engaging layouts.",
-  final_subtitle: "Final typography system focused on education and hierarchy",
-  final_paragraph: "The final system combines structured layouts, educational typography examples, and organized visual hierarchy to create a more approachable typography learning experience.",
-  small_images: [
+  overview: "Font Cards explores typography in a hands-on and approachable way. The project was designed to help students learn about type classification, hierarchy, and pairing systems through clear visual examples.",
+  problem: "Typography can be difficult for new designers to learn because many concepts are taught through theory rather than visual application.",
+  goal: "Create an engaging learning tool that helps students better understand typography through examples, organization, and visual comparison.",
+    final_subtitle: "Final typography system focused on education and hierarchy",
+    final_paragraph: "The final card system presents typography concepts in a way that is easy to explore and understand. Each card highlights key information while encouraging users to compare and learn from different typefaces.",
+      small_images: [
     {
       src: "../images/font-cards2.jpeg",
       alt: "Font Cards layouts"
@@ -1555,19 +1547,19 @@ const projects = {
 Linked: {
   title: "Linked",
   sub_title: "A spa and resort experience focused on streamlined guest interaction",
-  paragraph: "Linked is a hospitality app concept designed to simplify resort check-ins, spa bookings, and guest service interactions through a clean and approachable interface.",
-  main_img: {
+  paragraph: "Linked is a hospitality app concept designed to simplify resort check-ins, spa bookings, and guest services through one easy-to-use mobile experience.",
+    main_img: {
     src: "../images/linked10.jpeg",
     alt: "Linked app and brand screens"
   },
   role: "UX/UI Designer",
   deliverables: "Hospitality App Design",
   tools: "Figma, Adobe Photoshop",
-  overview: "Linked is a resort and spa experience designed to simplify guest interactions before and during their stay. The platform allows users to manage reservations, check into rooms, browse spa services, and quickly access resort information through one structured mobile interface.",
-  problem: "Traditional hospitality experiences often rely on fragmented systems that separate room management, service booking, and guest communication. This creates confusion and slows down interactions during travel experiences that should feel relaxing and seamless.",
-  goal: "Create a streamlined hospitality experience that simplifies check-in, room access, spa browsing, and guest service interactions while maintaining a calm and approachable interface.",
-  final_subtitle: "Final hospitality experience supporting smooth guest interactions",
-  final_paragraph: "The final interface combines room management, spa services, and guest support into one connected system designed to reduce friction throughout the resort experience. By simplifying navigation and focusing on clarity, Linked supports smoother interactions for both first-time and returning guests.",
+  overview: "Linked was designed to improve the guest experience before and during a resort stay. The app gives users one place to manage reservations, check into rooms, browse spa services, and access important resort information.",
+  problem: "Many hospitality experiences rely on separate systems for reservations, check-ins, and service bookings. This can create confusion for guests and make simple tasks take longer than they should.",
+  goal: "Design a mobile experience that helps guests manage their stay, access services, and find information quickly through a simple and organized interface.",
+  final_paragraph: "The final design brings reservations, room management, spa services, and guest support together in one app. By reducing unnecessary steps and simplifying navigation, the experience helps guests focus on enjoying their stay.",
+    final_paragraph: "The final interface combines room management, spa services, and guest support into one connected system designed to reduce friction throughout the resort experience. By simplifying navigation and focusing on clarity, Linked supports smoother interactions for both first-time and returning guests.",
   small_images: [
     {
       src: "../images/linked4.jpeg",
@@ -1602,43 +1594,42 @@ Linked: {
   ],
   research: [
     {
-      text: "Research explored hospitality and resort applications focused on simplifying guest experiences. Competitive analysis showed that users value fast room access, simplified service booking, and calm interfaces that reduce stress during travel.",
-      img: "../images/Linked-case_14.png",
+      text: "Research focused on hospitality apps and digital guest experiences. The findings showed that users value quick access to reservations, easy service booking, and clear information that reduces stress during travel.",
+            img: "../images/Linked-case_14.png",
       alt: "Linked hospitality research"
     }
   ],
   personas: [
     {
-      text: "The primary audience includes travelers looking for relaxing resort experiences supported by clear and efficient digital tools. These users expect fast access to reservations, room information, and spa services without navigating confusing systems.",
-      img: "../images/Linked-case_12.png",
+      text: "The target audience includes travelers looking for a convenient and relaxing experience. They expect digital tools to make their stay easier, whether they're checking in, booking services, or finding information about the resort.",
+            img: "../images/Linked-case_12.png",
       alt: "Linked user persona"
     }
   ],
   userflows: [
     {
-      text: "The user flow focuses on account creation, room check-in, browsing spa services, and accessing reservation information while keeping movement between screens simple and intuitive.",
-      img: "../images/Linked-case_18.png",
+      text: "The user flow follows the process of creating an account, checking into a room, browsing spa services, and managing reservations. Each step was designed to keep interactions simple and straightforward.",
+            img: "../images/Linked-case_18.png",
       alt: "Linked user flow"
     }
   ],
   wireframes: [
     {
-      text: "Wireframes focused on reservation management, spa browsing systems, and streamlined check-in flows designed to reduce friction during the guest experience.",
-      img: "../images/Linked-case_16.png",
+      text: "The wireframes explored reservation management, room access, service booking, and navigation patterns. Early layouts focused on reducing friction and helping users complete common tasks quickly.",
+            img: "../images/Linked-case_16.png",
       alt: "Linked wireframes"
     }
   ],
   designsolution: [
     {
-      text: "Features such as check-in confirmation popups, room-number entry systems, and highlighted navigation tabs reinforce clarity while minimizing mistakes during booking and check-in processes.",
-      img: "../images/Linked-case_22.png",
+      text: "The design uses clear navigation, simple booking flows, and organized account tools to help guests move through the app with confidence. Key actions are easy to find, reducing the chance of mistakes during check-in or reservations.",
+            img: "../images/Linked-case_22.png",
       alt: "Linked hospitality interactions"
     }
   ],
   feature: [
     {
-      text: "Additional features include highlighted navigation states, room-number management, spa category organization, and simplified guest account tools that improve usability throughout the experience.",
-      img: "../images/Linked-case_24.png",
+      text: "Features include mobile check-in, reservation management, spa service browsing, room information, account management tools, and simplified navigation throughout the app.",      img: "../images/Linked-case_24.png",
       alt: "Linked booking and service features"
     }
   ]
@@ -1646,7 +1637,7 @@ Linked: {
 Bluewater: {
   title: "Bluewater",
   sub_title: "A coastal-inspired experience focused on calm navigation and visual clarity",
-  paragraph: "Bluewater is a concept project designed around clean layouts, ocean-inspired visuals, and a structured user experience that emphasizes simplicity and atmosphere.",
+paragraph: "Bluewater is a coastal-inspired branding concept designed to capture the relaxed atmosphere of a modern waterfront destination.",
 
   main_img: {
     src: "../images/bluewater11.jpeg",
@@ -1657,15 +1648,15 @@ Bluewater: {
   deliverables: "Website Design, Branding",
   tools: "Figma, Adobe Photoshop",
 
-  overview: "Bluewater is a coastal-inspired concept focused on creating a calm and visually immersive experience through structured layouts, minimal navigation systems, and ocean-inspired branding.",
+overview: "Bluewater explores how visual design can create a sense of place. Inspired by coastal environments, the project focuses on building a brand that feels clean, welcoming, and connected to the water without relying on clichés.",
 
-  problem: "Many travel and hospitality-inspired websites become visually cluttered or overwhelming, making it difficult for users to focus on content and navigation.",
+problem: "Many travel and hospitality brands rely on overly busy layouts and generic imagery, making it difficult to create a memorable experience.",
 
-  goal: "Create a clean and calming digital experience that emphasizes simplicity, atmosphere, and structured navigation through ocean-inspired visuals and layouts.",
+goal: "Create a visual identity that reflects the calm and simplicity of a coastal destination while remaining flexible across digital and print applications.",
 
   final_subtitle: "Final coastal-inspired experience focused on clarity and atmosphere",
 
-  final_paragraph: "The final concept combines calming imagery, structured spacing systems, and clean visual hierarchy to create an immersive browsing experience inspired by coastal environments and modern hospitality design.",
+final_paragraph: "The final brand combines spacious layouts, ocean-inspired colors, and clean typography to create an experience that feels relaxed, modern, and easy to navigate.",
 
   small_images: [
     {
@@ -1705,99 +1696,51 @@ Bluewater: {
 
   research: [
     {
-      text: "Research explored hospitality, travel, and coastal-inspired branding systems that emphasize calm visual experiences and structured navigation. Users responded positively to spacious layouts, immersive photography, and minimal interfaces that reduce visual clutter.",
-      img: "../images/bluewater-case_10.png",
+      text: "Research explored hospitality brands, travel websites, and coastal destinations. The findings showed that strong photography, thoughtful use of space, and simple navigation often create a more inviting experience than heavily layered designs.",
+            img: "../images/bluewater-case_10.png",
       alt: "Bluewater branding research"
     }
   ],
 
   audience: [
     {
-      text: "The target audience includes users interested in travel, hospitality, and relaxing digital experiences that feel immersive, modern, and visually calming.",
-      img: "../images/bluewater-case_12.png",
+      text: "The target audience includes travelers and guests looking for experiences that feel relaxing, modern, and visually refined.",
+            img: "../images/bluewater-case_12.png",
       alt: "Bluewater audience"
     }
   ],
 
   color_scheme: [
     {
-      text: "The palette combines ocean-inspired blues, soft neutrals, and natural tones that reinforce calmness, clarity, and coastal atmosphere throughout the experience.",
-      img: "../images/bluewater-case_10.png",
+      text: "The color palette draws inspiration from the ocean, sand, and natural coastal landscapes. Soft blues and neutral tones help create a calm and balanced visual style.",
+            img: "../images/bluewater-case_10.png",
       alt: "Bluewater color palette"
     }
   ],
 
   logo: [
     {
-      text: "The logo system uses clean typography and minimal forms inspired by coastal movement and modern hospitality branding to create a calm and recognizable identity.",
-      img: "../images/bluewater-case_10.png",
+      text: "The logo uses clean typography and simple forms to create a recognizable identity that feels modern without distracting from the overall brand experience.",
+            img: "../images/bluewater-case_10.png",
       alt: "Bluewater logo"
     }
   ],
 
   typography: [
     {
-      text: "Typography selections focus on clean modern styles with strong readability and open spacing systems that reinforce simplicity and visual clarity.",
-      img: "../images/bluewater-case_10.png",
+      text: "Typography was selected for clarity and elegance, helping support the brand's relaxed and contemporary feel.",
+            img: "../images/bluewater-case_10.png",
       alt: "Bluewater typography"
     }
   ],
 
   supporting_elements: [
     {
-      text: "Supporting visuals include ocean-inspired textures, minimal dividers, spacious layouts, and immersive imagery that reinforce the relaxing coastal atmosphere.",
-      img: "../images/bluewater-case_10.png",
+      text: "Supporting elements include large-scale photography, subtle textures, and generous spacing that help reinforce the coastal atmosphere throughout the brand.",
+            img: "../images/bluewater-case_10.png",
       alt: "Bluewater supporting elements"
     }
   ]
 },
-Bluewater: {
-  title: "Bluewater",
-  sub_title: "A coastal-inspired experience focused on calm navigation and visual clarity",
-  paragraph: "Bluewater is a concept project designed around clean layouts, ocean-inspired visuals, and a structured user experience that emphasizes simplicity and atmosphere.",
-  main_img: {
-    src: "../images/bluewater11.jpeg",
-    alt: "Bluewater interface and branding"
-  },
-  role: "UX/UI Designer, Brand Identity Designer",
-  deliverables: "Website Design, Branding",
-  tools: "Figma, Adobe Photoshop",
-  overview: "Bluewater is a coastal-inspired concept focused on creating a calm and visually immersive experience through structured layouts, minimal navigation systems, and ocean-inspired branding.",
-  problem: "Many travel and hospitality-inspired websites become visually cluttered or overwhelming, making it difficult for users to focus on content and navigation.",
-  goal: "Create a clean and calming digital experience that emphasizes simplicity, atmosphere, and structured navigation through ocean-inspired visuals and layouts.",
-  final_subtitle: "Final coastal-inspired experience focused on clarity and atmosphere",
-  final_paragraph: "The final concept combines calming imagery, structured spacing systems, and clean visual hierarchy to create an immersive browsing experience inspired by coastal environments and modern hospitality design.",
 
-  small_images: [
-    {
-      src: "../images/bluewater2.jpeg",
-      alt: "Bluewater layouts"
-    },
-    {
-      src: "../images/bluewater3.jpeg",
-      alt: "Bluewater interface"
-    },
-    {
-      src: "../images/bluewater4.jpeg",
-      alt: "Bluewater branding"
-    }
-  ],
-
-  large_images: [
-    {
-      src: "../images/bluewater1.jpeg",
-      alt: "Bluewater full layouts"
-    },
-    {
-      src: "../images/bluewater5.jpeg",
-      alt: "Bluewater responsive layouts"
-    },
-    {
-      src: "../images/bluewater6.jpeg",
-      alt: "Bluewater visual system"
-    }
-  ],
-
-  pageType: "project"
-},
 };
